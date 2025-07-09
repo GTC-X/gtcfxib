@@ -22,7 +22,7 @@ const WhatsAppWidget = () => {
   return (
     <div ref={widgetRef}>
       <FloatingWhatsApp
-        phoneNumber="448000488461"
+        phoneNumber="9647502207788"
         accountName="GTC"
         avatar="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/iconf.png"
         statusMessage="Trade, Invest & Partner"

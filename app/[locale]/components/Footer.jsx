@@ -21,7 +21,7 @@ const Footer = () => {
   const pathnameWithoutLocale = pathname.replace(`/${locale}`, "");
 
   const emailLink =
-    locale === "fa-IR" ? "support.tr@gtcfx.com" : "support@gtcfx.com";
+    locale === "fa-IR" ? "support.tr@gtcfx.com" : "support@gtcfxiq.com";
 
   const footerLinks = [
     {
@@ -228,37 +228,30 @@ const Footer = () => {
               </ul>
             </div>
           ))}
-          <div className="contact group">
-            <h4 className="font-regular pb-2 text-secondary text-base underline-offset-1">
-              {contact[0].title}
-            </h4>
-            <hr className="w-8 h-[1px] bg-white border-0" />
+      <div className="contact group">
+  <h4 className="font-regular pb-2 text-secondary text-base underline-offset-1">
+    {contact[0].title}
+  </h4>
+  <hr className="w-8 h-[1px] bg-white border-0" />
 
-            <ul className="list-none mt-4">
-              {contact[0].links.map((link, index) => (
-                <li
-                  key={index}
-                  className={`text-xs font-normal leading-7 text-white hover:text-secondary cursor-pointer flex justify-start items-center gap-2`}
-                >
-                  <link.icon size={18} className=" text-secondary" />
-                  <b>{link.label}</b>
-                  <p>{link.text}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
+  <ul className="list-none mt-4">
+    {contact[0].links.map((link, index) => (
+      <li
+        key={index}
+        className="text-xs font-normal leading-7 text-white hover:text-secondary cursor-pointer flex justify-start items-center gap-2"
+      >
+        <link.icon size={18} className="text-secondary" />
+        <b>{link.label}</b>
+        <p dir="ltr">{link.text}</p>
+      </li>
+    ))}
+  </ul>
+</div>
+
         </div>
         <div className="container lg:flex justify-start items-center mt-8 pt-8 border-t border-y-cyan-50 border-opacity-40 px-2 ">
           <div className="lg:basis-3/12 lg:flex flex-wrap items-center justify-center md:pr-10 pb-5">
-            <Link href="/" locale="en">
-              <Image
-                src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/footer-logo.webp"
-                width="150"
-                height="53"
-                alt="GTCFX"
-                className="mx-auto md:m-0"
-              />
-            </Link>
+          
             <SocialIcon />
             <div className="flex flex-row py-5 justify-center">
               <Image

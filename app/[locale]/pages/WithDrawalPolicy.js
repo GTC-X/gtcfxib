@@ -69,7 +69,7 @@ const WithDrawalPolicyPages = () => {
           </li>
           <li>
             {t("withDrawal.content.procedure.para6")}
-            <a href="mailto:support@gtcfx.com">support@gtcfx.com</a>
+            <a href="mailto:support@gtcfxiq.com">support@gtcfxiq.com</a>
           </li>
         </ul>
       </section>

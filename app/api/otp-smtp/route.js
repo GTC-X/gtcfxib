@@ -44,7 +44,7 @@ export async function POST(req) {
 
                                 <p>Please use the following One-Time Password <strong style="font-size: 18px;font-weight: 800; color: #192055;">${otp}</strong> to complete your further process.</p>
                                 
-                                <p>If you have any questions or need further assistance, please do not hesitate to contact us at <a href="mailto:support@gtcfx.com" style="color: #5166ff; text-decoration: underline;">support@gtcfx.com</a>. We are here to support you and ensure your experience with us is exceptional.</p>
+                                <p>If you have any questions or need further assistance, please do not hesitate to contact us at <a href="mailto:support@gtcfxiq.com" style="color: #5166ff; text-decoration: underline;">support@gtcfxiq.com</a>. We are here to support you and ensure your experience with us is exceptional.</p>
                         
                                 
                                            
@@ -74,7 +74,7 @@ export async function POST(req) {
                                     </a>
                                 </div>
                                 <p style="font-size: 9px; line-height: 13px; text-align: left;">
-                                    Company name: GTC FX / Website: www.gtcfx.com / Email: support@gtcfx.com / Tel.: +971 800 667788
+                                    Company name: GTC FX / Website: www.gtcfx.com / Email: support@gtcfxiq.com / Tel.: +971 800 667788
                                 </p>
                                 <p style="font-size: 9px; line-height: 13px; text-align: left;">
                                   Disclaimers: The information in this email is for general purposes only and does not constitute personal financial advice. Please assess the relevance of this information to your own financial goals and situation. Investing in contract for difference products carries significant risks and may not be suitable for all investors. Losses may exceed the initial deposit. You do not have ownership rights to the underlying assets of the contract. We advise seeking professional guidance to fully understand the risks before trading. Please review our user terms, risk warnings, privacy policy, and other relevant documents before making financial decisions.

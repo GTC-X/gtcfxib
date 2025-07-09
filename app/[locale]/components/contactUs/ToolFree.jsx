@@ -25,7 +25,7 @@ const ToolFreeContact = () => {
     {
       countryCode: "GB",
       phoneNumber: "800 048 8461",
-      link: "tel:+448000488461",
+      link: "tel:+9647502207788",
       type: "global",
     },
     {
@@ -93,75 +93,20 @@ const ToolFreeContact = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-4 justify-start items-center gap-4 py-6 mb-2">
               <Link
-                href="https://wa.me/448000488461"
+                href="https://wa.me/9647502207788"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex bg-gray-100 items-center justify-center gap-2 px-3 md:px-12 py-2 md:py-3 group hover:bg-secondary rounded-3xl hover:rounded-3xl hover:cursor-pointer transition-all duration-300 hover:shadow-xl"
               >
                 <FaWhatsapp className="text-green-600 group-hover:text-white text-2xl" />
                 <span className="text-green-700 group-hover:text-white text-base font-medium">
-                  +44 800 048 8461
+                  +96 475 0220 7788
                 </span>
               </Link>
             </div>
 
 
-        <div className="flex flex-row items-center justify-start gap-2">
-              <p className="text-secondary text-4xl md:text-5xl">
-                <RiGlobalFill />
-              </p>
-              <h2 className="bg-gradient-to-r from-primary to-secondary inline-block text-transparent bg-clip-text HeadingH2 text-left mb-0">
-              {t("globalHeading")}
-              </h2>
-            </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 justify-center items-center gap-6 md:gap-8 pt-6">
-          {globalTollFreeNumbers.map((item, index) => (
-            <Link
-              key={index}
-              href={item.link}
-              className="flex bg-gray-100 items-center justify-center gap-2 px-3 md:px-12 py-2 md:py-3 group hover:bg-secondary rounded-3xl hover:rounded-3xl hover:cursor-pointer transition-all duration-300 hover:shadow-xl"
-            >
-              <div className="relative w-6 h-6">
-                <Image
-                  src={`/flags/toll/${item.countryCode}.svg`}
-                  fill
-                  alt={item.countryCode}
-                />
-              </div>
-              <span className="text-primary group-hover:text-[#FFF] text-sm 2xl:text-[17px]">
-                {item.phoneNumber}
-              </span>
-            </Link>
-          ))}
-        </div>
-        <div className="flex flex-row items-center justify-start gap-2 mt-8">
-              <p className="text-secondary text-4xl md:text-5xl">
-                <GiRotaryPhone />
-              </p>
-              <h2 className="bg-gradient-to-r from-primary to-secondary inline-block text-transparent bg-clip-text HeadingH2 text-left mb-0">
-              {t("localHeading")}
-              </h2>
-            </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 justify-center items-center gap-6 md:gap-8 pt-6">
-          {localTollFreeNumbers.map((item, index) => (
-            <Link
-              key={index}
-              href={item.link}
-              className="flex bg-gray-100 items-center justify-center gap-2 px-3 md:px-12 py-2 md:py-3 group hover:bg-secondary rounded-3xl hover:rounded-3xl hover:cursor-pointer transition-all duration-300 hover:shadow-xl"
-            >
-              <div className="relative w-6 h-6">
-                <Image
-                  src={`/flags/toll/${item.countryCode}.svg`}
-                  fill
-                  alt={item.countryCode}
-                />
-              </div>
-              <span className="text-primary group-hover:text-[#FFF] text-sm 2xl:text-[17px]">
-                {item.phoneNumber}
-              </span>
-            </Link>
-          ))}
-        </div>
+   
       </div>
       </section>
     </LocationContextProvider>

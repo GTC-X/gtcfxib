@@ -202,21 +202,7 @@ const Header = ({currentLanguage}) => {
           icon: <MdOutlineWbSunny />,
           title: t("about.thirdcolumn.heading"),
           items: [
-            {
-              href: "/blogs",
-              label: t("about.thirdcolumn.option4"),
-              locale: "en",
-            },
-            {
-              href: "/company-news",
-              label: t("about.thirdcolumn.option1"),
-              locale: "en",
-            },
-            {
-              href: "/careers",
-              label: t("about.thirdcolumn.option2"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
-            },
+           
             {
               href: "/contact-us",
               label: t("about.thirdcolumn.option3"),
@@ -332,11 +318,6 @@ const Header = ({currentLanguage}) => {
           icon: <IoMdLaptop />,
           title: t("trading.secondcolumn.heading"),
           items: [
-            {
-              href: "/mt4-platform",
-              label: t("trading.secondcolumn.option1"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
-            },
             {
               href: "/mt5-platform",
               label: t("trading.secondcolumn.option2"),
@@ -468,27 +449,12 @@ const Header = ({currentLanguage}) => {
             },
           ],
         },
-        {
-          icon: <BiAnalyse />,
-          title: t("technology.thirdcolumn.heading"),
-          items: [
-            {
-              href: "/technical-tools",
-              label: t("technology.thirdcolumn.option1"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
-            },
-            {
-              href: "/autochartist",
-              label: t("technology.thirdcolumn.option2"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
-            },
-          ],
-        },
+    
       ],
     },
   ];
   const extractHrefsAndLocales = (data) => {
-    if (data?.length > 0 && pathnameWithoutLocale != "/") {
+    if (data?.length > 0 && pathnameWithoutLocale != "/") { 
       const extractedData = [];
       data.forEach((item) => {
         const { href, locale, links } = item;
@@ -553,11 +519,11 @@ const Header = ({currentLanguage}) => {
         <nav className="container">
           <div className="flex justify-between items-center ">
             <Image
-              src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/logo-2024-new.webp"
+              src="/logoiq.webp"
               width={200}
-              height={72}
+              height={56}
               alt="GTCFX"
-              className="lg:w-[200px] lg:h-[72px] md:w-[120px] md:h-[53px] w-[130px] h-[47px] cursor-pointer"
+              className="lg:w-[200px] lg:h-[56px] md:w-[120px] md:h-[53px] w-[130px] h-[47px] cursor-pointer"
               onClick={() => {
                 router.push("/", { locale: locale });
               }}

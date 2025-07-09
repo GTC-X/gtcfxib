@@ -100,7 +100,7 @@ const generateEmailContent = (data) => {
                                     </a>
                                 </div>
                                 <p style="font-size: 9px; line-height: 13px; text-align: left;">
-                                    Company name: GTCFX / Website: www.gtcfx.com/ Email: support@gtcfx.com 
+                                    Company name: GTCFX / Website: www.gtcfx.com/ Email: support@gtcfxiq.com 
                                 </p>
                                 <p style="font-size: 9px; line-height: 13px; text-align: left;">
                                     Disclaimers: The information in this email is for general purposes only and does not constitute personal financial advice. Please assess the relevance of this information to your own financial goals and situation. Investing in contract for difference products carries significant risks and may not be suitable for all investors. Losses may exceed the initial deposit. You do not have ownership rights to the underlying assets of the contract. We advise seeking professional guidance to fully understand the risks before trading. Please review our user terms, risk warnings, privacy policy, and other relevant documents before making financial decisions.

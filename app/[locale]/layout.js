@@ -155,11 +155,7 @@ export default async function LocaleLayout({ children, params }) {
         height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
           }}
         />
-     <script
-          defer
-          id="convrs-webchat"
-          src="https://webchat.conv.rs/0bc7dfc471ae1a9e19e6a0418f9b6fd3724bfbcf.js"
-        ></script>
+  
       </head>
       <body className="bg-white">
         <LayoutWrapper

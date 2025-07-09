@@ -52,27 +52,40 @@ const TopBar = ({ currentLanguage, isAr, href }) => {
     return (
         <section className="hidden lg:block border-b border-gray-200 bg-primary text-white" id="register1">
             <div className="container flex flex-row justify-between items-center">
-            <div className="content-top flex flex-row gap-2">
+     <div className="content-top flex flex-row gap-2">
   <p className="text-[14px] font-[400] flex items-center gap-4 py-3">
-    <Link href="tel:+971800667788" className="flex items-center gap-2 hover:text-secondary text-sm">
-      <BsTelephoneFill /> +971 800 667788
+    <Link
+      href="tel:+9647502207788"
+      className="flex items-center gap-2 hover:text-secondary text-sm"
+      dir="ltr"
+    >
+      <BsTelephoneFill /> +96 475 0220 7788
     </Link>
-    {/* White separator line */}
+
     <span className="h-4 border-l border-white"></span>
-    <Link href="mailto:support@gtcfx.com" className="flex items-center gap-2 hover:text-secondary text-sm">
-      <MdEmail /> support@gtcfx.com
+
+    <Link
+      href="mailto:info@gtcfxiq.com"
+      className="flex items-center gap-2 hover:text-secondary text-sm"
+      dir="ltr"
+    >
+      <MdEmail /> info@gtcfxiq.com
     </Link>
+
     <span className="h-4 border-l border-white"></span>
-     <Link
-       href="https://wa.me/448000488461"
+
+    <Link
+      href="https://wa.me/9647502207788"
       target="_blank"
       rel="noopener noreferrer"
       className="flex items-center gap-2 hover:text-secondary text-sm"
+      dir="ltr"
     >
-      <FaWhatsapp /> +44 800 048 8461
+      <FaWhatsapp /> +96 475 0220 7788
     </Link>
   </p>
 </div>
+
 
                 <div className={`flex items-center gap-2 ${isAr ? "rtl:md:mr-4" : "ltr:md:ml-4"}`}>
                 

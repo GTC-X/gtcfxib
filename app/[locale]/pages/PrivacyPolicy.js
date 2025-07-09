@@ -286,7 +286,7 @@ const PrivacyPolicyPage = () => {
         </h3>
         <p className="text-primary md:text-[1rem] pb-2">
         {t("privacyPolicy.content.contact.para1")}
-          <a href="mailto:support@gtcfx.com.">support@gtcfx.com.</a>
+          <a href="mailto:support@gtcfxiq.com.">support@gtcfxiq.com.</a>
         </p>
       </section>
     </>

@@ -61,7 +61,7 @@ export const TraderCompletionMail = (data) => {
                               </table>
                       
                               <p>If you need any assistance, feel free to reach out to our support team at 
-                                  <a href="mailto:support@gtcfx.com" style="color: #b68756; text-decoration: underline;">support@gtcfx.com</a>.
+                                  <a href="mailto:support@gtcfxiq.com" style="color: #b68756; text-decoration: underline;">support@gtcfxiq.com</a>.
                               </p>
                       
                               <h3 style="font-size: 16px; color: #192055;">Security Reminder</h3>
@@ -106,7 +106,7 @@ export const TraderCompletionMail = (data) => {
                                 </div>
                                 <p>
                                     Company name: GTC FX / Website: www.gtcfx.com / Email:
-                                    support@gtcfx.com
+                                    support@gtcfxiq.com
                                   </p>
                                   <p>
                                     Disclaimers: The information in this email is for general

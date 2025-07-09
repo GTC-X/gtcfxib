@@ -202,7 +202,7 @@ export async function POST(req) {
                           
                               <p>
                                 If you have any questions or require assistance, please contact our support team at 
-                                <a href="mailto:support@gtcfx.com" style="color: #b68756; text-decoration: underline;">support@gtcfx.com</a> 
+                                <a href="mailto:support@gtcfxiq.com" style="color: #b68756; text-decoration: underline;">support@gtcfxiq.com</a> 
                                 or visit our website at 
                                 <a href="https://www.gtcfx.com" style="color: #b68756; text-decoration: underline;">www.gtcfx.com</a>.
                               </p>
@@ -240,7 +240,7 @@ export async function POST(req) {
                                 </div>
                                 <p>
                                     Company name: GTC FX / Website: www.gtcfx.com / Email:
-                                    support@gtcfx.com
+                                    support@gtcfxiq.com
                                   </p>
                                   <p>
                                     Disclaimers: The information in this email is for general

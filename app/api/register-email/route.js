@@ -34,7 +34,7 @@ export async function POST(req) {
                         
                                 <p>We are pleased to inform you that your live trading account has been successfully activated.</p>
                                 <p>Below are your account credentials. Once logged in, you can access the trading software and begin trading.</p>
-                                <p>If you have any questions or need further assistance, please do not hesitate to contact us at <a href="mailto:support@gtcfx.com">support@gtcfx.com</a>. We are here to support you and ensure your experience with us is exceptional.</p>
+                                <p>If you have any questions or need further assistance, please do not hesitate to contact us at <a href="mailto:support@gtcfxiq.com">support@gtcfxiq.com</a>. We are here to support you and ensure your experience with us is exceptional.</p>
                         
                                 <table class="content-table" style="width: 100%; margin-top: 20px; border-collapse: collapse;">
                                     <tr>
@@ -90,7 +90,7 @@ export async function POST(req) {
                                 </div>
                                 <p>
                                     Company name: GTC FX / Website: www.gtcfx.com / Email:
-                                    support@gtcfx.com
+                                    support@gtcfxiq.com
                                   </p>
                                   <p>
                                     Disclaimers: The information in this email is for general

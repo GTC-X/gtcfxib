@@ -12,7 +12,7 @@ export const transporter = nodemailer.createTransport({
 
 export const mailOptions = {
   from: 'portal@mx1.gtcmail.com',
-  to: 'support@gtcfx.com, support@gtcup.com, marginbonus@gtcfx.com',
+  to: 'support@gtcfxiq.com, support@gtcup.com, marginbonus@gtcfx.com',
   bcc: 'mohammad.zeeshan@gtcfx.com',
 };
 

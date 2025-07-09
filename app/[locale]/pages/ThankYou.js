@@ -22,8 +22,8 @@ const ThankYouPage = () => {
         <p className='text pb-2'>{t("footer")}</p>
         <p className='text pb-2'>
           {t("footer1")}
-          <a className='cursor-pointer ml-2 text-secondary' href='mailto:support@gtcfx.com'>
-            support@gtcfx.com.
+          <a className='cursor-pointer ml-2 text-secondary' href='mailto:support@gtcfxiq.com'>
+            support@gtcfxiq.com.
           </a>
         </p>
       </div>

@@ -58,9 +58,9 @@ const RefundPolicyPage = () => {
                     {t("RefundPolicy.content.procedure.option.one2")}
                     <Link
                       className="underline text-[#c36]"
-                      href="mailto:support@gtcfx.com"
+                      href="mailto:support@gtcfxiq.com"
                     >
-                      support@gtcfx.com
+                      support@gtcfxiq.com
                     </Link>
                   </li>
                 </ul>
@@ -76,9 +76,9 @@ const RefundPolicyPage = () => {
                 {t("RefundPolicy.content.procedure.option.eight")}
                 <Link
                   className="underline text-[#c36]"
-                  href="mailto:support@gtcfx.com."
+                  href="mailto:support@gtcfxiq.com."
                 >
-                  support@gtcfx.com.
+                  support@gtcfxiq.com.
                 </Link>
               </li>
             </ul>
@@ -149,10 +149,10 @@ const RefundPolicyPage = () => {
               <li>
               {t("RefundPolicy.content.procedure.dispute.para2")}
                 <Link
-                  href="mailto:support@gtcfx.com"
+                  href="mailto:support@gtcfxiq.com"
                   className="underline text-[#c36]"
                 >
-                  support@gtcfx.com
+                  support@gtcfxiq.com
                 </Link>
               </li>
             </ul>

@@ -30,7 +30,7 @@ const CampaignRules = () => {
       title: "Reward Claiming Rules:",
       content: [
         "An IB can only apply for one reward at a time; two rewards can't be valid simultaneously.",
-        "Please contact your relationship manager or support@gtcfx.com to claim the reward.",
+        "Please contact your relationship manager or support@gtcfxiq.com to claim the reward.",
         "Once a reward is redeemed, trading volume resets for new rewards.",
         "Rewards may vary by the partner's country of residence.",
         "After meeting the conditions, clients can apply anytime, and GTCFX will issue the reward within 15 working days."
