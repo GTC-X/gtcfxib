@@ -1,0 +1,5 @@
+{
+    "rewrites": [
+      { "source": "/company-news/:slug", "destination": "/company-news/[slug]" }
+    ]
+  }

@@ -1,0 +1,196 @@
+{
+  "metaData": {
+    "home": {
+      "title": "GTCFX Broker Forex Menawarkan Spread Rendah, Eksekusi Cepat, dan Perdagangan Aman",
+      "des": "Bertransaksi dengan GTCFX, broker forex dan penyedia likuiditas terpercaya, untuk menikmati spread rendah, deposit dan penarikan cepat, serta pengalaman trading yang aman. Mulai trading hari ini."
+    },
+    "aboutUs": {
+      "title": "Temukan Layanan Trading Online dan Keuangan Terpercaya dengan GTCFX",
+      "des": "GTCFX menyediakan layanan trading online dan keuangan yang aman dirancang untuk trader global. Mulai perjalanan Anda dengan dukungan ahli hari ini."
+    },
+    "whyGtcGroup": {
+      "title": "Mengapa GTC Group Platform Trading Terbaik untuk Sukses? | GTCFX",
+      "des": "GTC Group adalah platform trading terbaik untuk trader global yang menawarkan keamanan, keandalan, dan inovasi. Bertransaksi dengan percaya diri dan capai tujuan keuangan Anda. Mulai trading hari ini."
+    },
+    "regulations": {
+      "title": "GTCFX adalah Platform Trading Global Terpercaya dan Terregulasi",
+      "des": "Bertransaksi dengan percaya diri di GTC Group, platform trading global terpercaya dan terregulasi. Berlisensi dan patuh, kami menawarkan trading derivatif keuangan yang aman di seluruh dunia."
+    },
+    "globalPresence": {
+      "title": "Bertransaksi Secara Global dengan GTCFX, Broker Terpercaya untuk Solusi Keuangan",
+      "des": "GTCFX adalah broker global terpercaya yang menawarkan solusi keuangan aman. Dengan kehadiran global yang kuat, kami menghubungkan trader di seluruh dunia untuk peluang tanpa batas."
+    },
+    "awards": {
+      "title": "GTCFX adalah Broker Berprestasi yang Dikenal karena Keunggulan",
+      "des": "Bertransaksi dengan percaya diri di GTCFX, broker berprestasi yang menetapkan standar industri. Dikenal karena inovasi dan keandalan, kami menawarkan solusi trading kelas dunia. Mulai trading sekarang."
+    },
+    "compensationFund": {
+      "title": "GTCFX Memastikan Trading Aman dengan Dana Kompensasi Khusus",
+      "des": "Bertransaksi dengan tenang di GTCFX. Dana kompensasi kami melindungi trader, memastikan perlindungan keuangan dan keamanan dalam setiap transaksi."
+    },
+    "blogs": {
+      "title": "Berita dan Strategi Terkini Pasar Forex | GTCFX",
+      "des": "Blog GTCFX menawarkan panduan trading forex mendalam, analisis pasar, dan saran ahli untuk membantu Anda sukses di pasar keuangan. Mulai belajar hari ini!"
+    },
+    "campanyNews": {
+      "title": "Tetap Update dengan Berita Trading dan Pembaruan GTCFX Terbaru",
+      "des": "Dapatkan berita trading terbaru, analisis pasar, dan pembaruan perusahaan dari GTCFX. Tetap terinformasi dan unggul di dunia trading global."
+    },
+    "career": {
+      "title": "Bangun Karir Forex Anda dan Berkembang dengan Peluang GTCFX",
+      "des": "GTCFX adalah perusahaan teknologi keuangan terkemuka yang mengkhususkan diri dalam solusi trading forex. Karir kami menawarkan lingkungan kerja kolaboratif dan mendukung di mana kreativitas berkembang dan bakat diberdayakan untuk kesuksesan jangka panjang."
+    },
+    "contactUs": {
+      "title": "Hubungi Kami untuk Dukungan dan Bantuan Ahli dalam Trading",
+      "des": "Butuh bantuan dengan trading? Hubungi GTCFX untuk dukungan ahli dalam trading dan bantuan personal. Tim kami siap membantu Anda bertransaksi dengan percaya diri."
+    },
+    "demoAccount": {
+      "title": "Buka Akun Demo Forex Gratis dan Berlatih Trading Tanpa Risiko",
+      "des": "Mulai trading dengan akun demo forex gratis di GTC Group. Rasakan kondisi pasar nyata, uji strategi, dan bangun kepercayaan diri tanpa risiko."
+    },
+    "deposit": {
+      "title": "Danai Akun Anda dengan Mudah untuk Trading Aman dan Cepat dengan GTCFX",
+      "des": "Danai akun Anda dengan aman bersama GTCFX dan mulai trading CFD dan forex dengan mudah. Nikmati transaksi cepat, berbagai opsi pembayaran, dan proses deposit lancar tanpa biaya tersembunyi."
+    },
+    "accountTypes": {
+      "title": "Pilih Akun Trading Live Terbaik dengan GTCFX",
+      "des": "Buka akun trading live dengan GTCFX dan pilih dari jenis akun yang fleksibel. Nikmati spread kompetitif, eksekusi cepat, dan pengalaman trading yang aman."
+    },
+    "promotion": {
+      "title": "Deposit dan Cashback Trading – Dapatkan Hingga $1,000 | GTCFX",
+      "des": "Tingkatkan keuntungan trading Anda dengan Program Deposit dan Cashback Trading kami! Dapatkan hingga $1,000 cashback saat Anda trading forex, logam, dan minyak. Semakin banyak deposit, semakin besar hadiah Anda. Mulai trading hari ini! 🚀"
+    },
+    "forex": {
+      "title": "Trading Forex dengan GTCFX dan Akses Pasar Global dengan Percaya Diri",
+      "des": "Mulai trading forex dengan GTCFX dan jelajahi pasar valas global dengan spread ketat dan eksekusi super cepat. Pilih platform yang dirancang untuk trader yang menuntut keandalan dan presisi."
+    },
+    "energy": {
+      "title": "Trading CFD Energi dengan GTCFX – Trading Minyak, Gas, dan Lainnya",
+      "des": "Jelajahi trading CFD energi dengan GTCFX. Trading minyak, gas, dan pasar energi lainnya dengan alat canggih dan analisis real-time untuk memaksimalkan potensi trading Anda di sektor energi."
+    },
+    "shares": {
+      "title": "Trading Saham dan Investasi di Perusahaan Global | GTCFX",
+      "des": "Diversifikasi portofolio investasi Anda dengan menambahkan saham beberapa merek global terkemuka seperti Apple, Tesla, Netflix, dan lainnya."
+    },
+    "stock": {
+      "title": "Trading Saham dengan GTCFX dan Akses Pasar Global untuk Peluang Lebih Baik",
+      "des": "Jelajahi trading saham dengan GTCFX dan akses pasar global utama. Beli dan jual saham dengan mudah menggunakan alat yang ramah pengguna dan pembaruan pasar real-time."
+    },
+    "commodities": {
+      "title": "Trading Komoditas dengan GTCFX dan Jelajahi Minyak, Emas, dan Lainnya",
+      "des": "Mulai trading komoditas seperti minyak, emas, dan lainnya dengan GTCFX. Akses pasar global, diversifikasi investasi Anda, dan manfaatkan peluang menguntungkan dengan mudah."
+    },
+    "indices": {
+      "title": "Mulai Trading Indeks dengan GTCFX dan Akses Pasar Global Teratas",
+      "des": "Ikuti trading indeks dengan GTCFX dan jelajahi pasar global teratas. Trading indeks utama dengan mudah dan buat keputusan terinformasi dengan data real-time dan opsi fleksibel."
+    },
+    "metals": {
+      "title": "Trading Logam Mulia seperti Emas dan Perak dengan Mudah bersama GTCFX",
+      "des": "Mulai trading logam mulia seperti emas dan perak dengan GTCFX. Beli dan jual dengan langkah mudah, opsi fleksibel, dan akses pasar real-time."
+    },
+    "mt4Platform": {
+      "title": "Trading dengan Mudah menggunakan Platform Trading MT4 di GTCFX",
+      "des": "Unduh Platform Trading MT4 untuk Windows, Mac, iOS, dan Android bersama GTCFX. Trading CFD pada forex, saham, indeks, komoditas, dan lainnya dengan platform yang kuat dan mudah digunakan. Buka akun MT4 Anda sekarang."
+    },
+    "mt5Platform": {
+      "title": "Trading dengan Platform Trading MT5 di GTCFX untuk Fitur Lanjutan",
+      "des": "Dapatkan Platform Trading MT5 untuk Windows, Mac, iOS, dan Android bersama GTCFX. Trading CFD pada forex, saham, indeks, komoditas, dan lainnya dengan alat canggih dan eksekusi cepat. Mulai trading di MT5 hari ini."
+    },
+    "downloadApp": {
+      "title": "Unduh Platform Trading untuk Trading Cepat dan Aman dengan GTCFX",
+      "des": "Unduh platform trading dan mulai trading kapan saja. Akses pasar global dengan platform yang cepat, aman, dan ramah pengguna di perangkat Anda. Unduh sekarang."
+    },
+    "tutorialVideo": {
+      "title": "Cara Membuka Akun Trading Live, Deposit, dan Penarikan melalui Video Tutorial | GTCFX",
+      "des": "Tonton video tutorial GTCFX untuk belajar cara membuka akun trading live, deposit dana, dan penarikan dengan mudah. Mulai trading dengan percaya diri hari ini dengan salah satu broker terbaik!"
+    },
+    "weeklyWebinar": {
+      "title": "Seri Webinar Edukasi Gratis 10 Minggu tentang Analisis Teknikal – Daftar Sekarang!",
+      "des": "Ikuti webinar trading eksklusif kami dan kuasai Analisis Teknikal & Strategi Pasar Langsung dengan ahli Harsh Japee. Dapatkan analisis real-time, strategi terbukti, dan akses ke setup trading untuk forex, emas, bitcoin, dan indeks. Daftar sekarang – kuota terbatas!"
+    },
+    "economicCalendar": {
+      "title": "Tetap Update dengan Kalender Ekonomi Terkini – GTCFX",
+      "des": "Ikuti peristiwa penting pasar dengan Kalender Ekonomi GTCFX. Dapatkan pembaruan real-time tentang data ekonomi global dan buat keputusan trading yang terinformasi. Cek sekarang."
+    },
+    "marketOverview": {
+      "title": "Dapatkan Ikhtisar Pasar dan Tren Terkini dengan GTCFX",
+      "des": "Dapatkan ikhtisar pasar terkini dengan data real-time, tren, dan analisis. Tetap unggul dalam trading dengan wawasan terkini tentang pasar keuangan global. Jelajahi sekarang."
+    },
+    "glossary": {
+      "title": "Istilah Keuangan dan FAQ untuk Membantu Anda Memahami Trading dengan GTCFX",
+      "des": "Jelajahi Istilah Keuangan dan FAQ untuk mempelajari konsep trading utama. Dapatkan penjelasan jelas dan jawaban atas pertanyaan umum untuk keputusan trading yang lebih baik. Mulai sekarang."
+    },
+    "dynamicLeverage": {
+      "title": "Leverage Dinamis untuk Trading Fleksibel dan Cerdas dengan GTCFX",
+      "des": "Pelajari bagaimana Leverage Dinamis menyesuaikan dengan transaksi Anda untuk manajemen risiko yang lebih baik. Trading lebih cerdas dengan sistem leverage fleksibel di GTCFX. Mulai hari ini."
+    },
+    "introductoryBroker": {
+      "title": "Jadi Introducing Broker dan Tingkatkan Penghasilan Anda dengan GTCFX",
+      "des": "Bergabunglah dengan Program Introducing Broker GTCFX dan dapatkan komisi dengan mereferensikan trader. Bangun jaringan Anda dan tingkatkan penghasilan dengan broker terpercaya. Daftar hari ini."
+    },
+    "affiliateProgram": {
+      "title": "Bergabunglah dengan Program Afiliasi GTCFX dan Dapatkan Komisi dengan Mudah",
+      "des": "Berkolaborasi dengan GTCFX melalui Program Afiliasi kami dan dapatkan komisi untuk setiap referensi. Mulai perjalanan Anda menuju penghasilan pasif hari ini. Daftar sekarang."
+    },
+    "liquidityTechnology": {
+      "title": "GTC Prime Menyediakan Likuiditas & Teknologi untuk Trader Global",
+      "des": "GTC Prime menyediakan Likuiditas & Teknologi dengan infrastruktur canggih dan harga dari bank tier 1, memastikan eksekusi DMA untuk trading yang lancar."
+    },
+    "copyTrading": {
+      "title": "Copy Trading untuk Investasi Mudah dan Cerdas dengan GTCFX",
+      "des": "Gunakan Copy Trading untuk mengikuti trader ahli dan mengotomatiskan investasi Anda. Trading lebih cerdas dengan GTCFX dan kembangkan portofolio Anda dengan mudah. Mulai sekarang."
+    },
+    "pammAccount": {
+      "title": "Investasikan dan Kelola Dana dengan Mudah menggunakan Akun PAMM di GTCFX",
+      "des": "Buka akun PAMM di GTCFX untuk berinvestasi dalam dana yang dikelola ahli. Dapatkan keuntungan sementara trader profesional mengelola investasi Anda. Mulai hari ini."
+    },
+    "mamAccount": {
+      "title": "Kelola Beberapa Akun Trading dengan Multi Account Manager",
+      "des": "Gunakan Multi Account Manager di GTCFX untuk mengontrol beberapa akun dari satu platform. Trading lebih efisien dengan alat manajemen canggih. Mulai sekarang."
+    },
+    "signalCenter": {
+      "title": "Buat Keputusan Trading Lebih Baik dengan Alat Pusat Sinyal di GTCFX",
+      "des": "Gunakan Alat Pusat Sinyal untuk mendapatkan wawasan pasar real-time dan sinyal trading dari ahli. Tetap terinformasi dan buat keputusan trading dengan percaya diri. Coba sekarang."
+    },
+    "vpsHosting": {
+      "title": "Dapatkan Layanan Hosting VPS Aman dan Cepat untuk Trading di GTCFX",
+      "des": "Gunakan layanan hosting VPS di GTCFX untuk trading yang stabil dan berkecepatan tinggi. Pastikan latensi rendah, koneksi aman, dan akses pasar tanpa gangguan. Atur sekarang."
+    },
+    "expertAnalysis": {
+      "title": "Analisis Ahli dan Alat Teknikal untuk Trading Lebih Cerdas di GTCFX",
+      "des": "Gunakan layanan hosting VPS di GTCFX untuk trading yang stabil dan berkecepatan tinggi. Pastikan latensi rendah, koneksi aman, dan akses pasar tanpa gangguan. Atur sekarang."
+    },
+    "autoChartist": {
+      "title": "AutoChartist untuk Analisis Pasar Cerdas dan Trading di GTCFX",
+      "des": "Gunakan AutoChartist di GTCFX untuk mendeteksi pola dan tren pasar secara real-time. Tingkatkan strategi trading Anda dengan analisis otomatis. Coba sekarang."
+    },
+    "privacyPolicy": {
+      "title": "Kebijakan Privasi – Bagaimana GTCFX Melindungi Data dan Keamanan Anda",
+      "des": "Baca Kebijakan Privasi GTCFX untuk memahami bagaimana kami melindungi data pribadi Anda dan memastikan trading yang aman. Privasi dan keamanan Anda penting. Pelajari lebih lanjut."
+    },
+    "withDrawal": {
+      "title": "Kebijakan Penarikan – Penarikan Dana Cepat dan Aman di GTCFX",
+      "des": "Baca Kebijakan Penarikan GTCFX untuk mengetahui tentang penarikan dana yang aman, cepat, dan tanpa hambatan. Akses keuntungan trading Anda dengan mudah. Pelajari lebih lanjut."
+    },
+    "compliancePolicy": {
+      "title": "Kebijakan KYC dan Kepatuhan untuk Trading Aman di GTCFX",
+      "des": "Pelajari Kebijakan KYC dan Kepatuhan GTCFX untuk memastikan trading yang aman dan transparan. Ikuti langkah verifikasi sederhana untuk pengalaman yang aman. Baca lebih lanjut."
+    },
+    "refundPolicy": {
+      "title": "Kebijakan Deposit dan Pengembalian Dana untuk Transaksi Aman di GTCFX",
+      "des": "Baca Kebijakan Deposit dan Pengembalian Dana GTCFX untuk memahami proses pembayaran yang aman, deposit cepat, dan pengembalian dana tanpa hambatan. Pelajari lebih lanjut hari ini."
+    },
+    "restrictedCountries": {
+      "title": "Periksa Daftar Negara Terbatas untuk Layanan GTCFX",
+      "des": "Cari tahu negara mana yang dibatasi untuk mengakses layanan GTCFX. Pastikan kepatuhan sebelum Anda mulai trading. Pelajari lebih lanjut hari ini."
+    },
+    "swapTermsCondition": {
+      "title": "Ketahui Syarat dan Ketentuan Akun Trading Tanpa Swap di GTCFX",
+      "des": "Baca syarat dan ketentuan akun trading tanpa swap di GTCFX untuk memahami kelayakan, aturan, dan manfaat trading bebas bunga. Pelajari lebih lanjut sekarang."
+    },
+    "marginRequirments": {
+      "title": "Kelola Transaksi Anda dengan Persyaratan Margin yang Tepat di GTCFX",
+      "des": "Pelajari Persyaratan Margin GTCFX untuk mengelola transaksi Anda secara efektif. Dapatkan wawasan tentang leverage dan manajemen risiko. Baca lebih lanjut sekarang."
+    }
+  }
+}

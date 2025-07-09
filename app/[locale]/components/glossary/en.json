@@ -1,0 +1,959 @@
+{
+  "A": [
+    {
+      "term": "Ask price/Ask",
+      "definition": "The price at which a seller has offered to purchase the currency or instrument."
+    },
+    {
+      "term": "Arbitrage",
+      "definition": "Simultaneous buying and selling of securities, currency, or commodities in different markets to profit from price discrepancies."
+    },
+    {
+      "term": "Account",
+      "definition": "Record of all transactions."
+    },
+    {
+      "term": "Account Balance",
+      "definition": "Same as balance."
+    },
+    {
+      "term": "Agent",
+      "definition": "An individual employed to act on behalf of another (the principal)."
+    },
+    {
+      "term": "Accrual",
+      "definition": "The apportionment of premiums and discounts on forward exchange transactions that relate directly to deposit swap (Interest Arbitrage) deals, over the period of each deal."
+    },
+    {
+      "term": "Adjustment",
+      "definition": "Official action normally by either change in the internal economic policies to correct a payment imbalance or in the official currency rate."
+    },
+    {
+      "term": "Agent Bank",
+      "definition": "(1) A bank acting for a foreign bank. (2) In the Euro market - the agent bank is the one appointed by the other banks in the syndicate to handle the administration of the loan."
+    },
+    {
+      "term": "Aggregate Demand",
+      "definition": "Total demand for goods and services in the economy. It includes private and public sector demand for goods and services within the country and the demand of consumers and firms in other countries for goods and services."
+    },
+    {
+      "term": "Aggregate risk",
+      "definition": "Size of exposure of a bank to a single customer for both spot and forward contracts."
+    },
+    {
+      "term": "Aggregate Supply",
+      "definition": "Total supply of goods and services in the economy from domestic sources (including imports) available to meet aggregate demand."
+    },
+    {
+      "term": "Agio",
+      "definition": "Difference in the value between currencies. Also used to describe percentage charges for conversion from paper money into cash, or from a weak into a strong currency."
+    },
+    {
+      "term": "Appreciation",
+      "definition": "Describes a currency strengthening in response to market demand rather than by official action."
+    },
+    {
+      "term": "All or None",
+      "definition": "A limit price order that instructs the broker to fill the whole order at the stated price or not at all."
+    }
+  ],
+  "B": [
+    {
+      "term": "Bid Price/Bid",
+      "definition": "The price at which a buyer has offered to purchase the currency or instrument."
+    },
+    {
+      "term": "Base Currency",
+      "definition": "The first currency listed in a forex pair, which determines the value of the pair."
+    },
+    {
+      "term": "Bear Market",
+      "definition": "A market condition characterized by declining prices."
+    },
+    {
+      "term": "Bear",
+      "definition": "An investor who believes that prices are going to fall."
+    },
+    {
+      "term": "Bull market",
+      "definition": "A prolonged period of generally rising prices."
+    },
+    {
+      "term": "Bull",
+      "definition": "An investor who believes that prices are going to rise."
+    },
+    {
+      "term": "Broker",
+      "definition": "A firm or individual that executes buy and sell orders for traders in exchange for a commission or spread."
+    },
+    {
+      "term": "Band",
+      "definition": "The range in which a currency is permitted to move. A system used in the ERM."
+    },
+    {
+      "term": "Bank line",
+      "definition": "Line of credit granted by a bank to a customer, also known as a 'line'."
+    },
+    {
+      "term": "Bank Rate",
+      "definition": "The rate at which a central bank is prepared to lend money to its domestic banking system."
+    },
+    {
+      "term": "Base currency",
+      "definition": "United States Dollars. The currency to which each transaction shall be converted at the close of each position."
+    },
+    {
+      "term": "Basis trading",
+      "definition": "Taking opposite positions in the cash and futures market with the intention of profiting from favorable movements in the basis."
+    },
+    {
+      "term": "Bretton Woods",
+      "definition": "The site of the conference which in 1944 led to the establishment of the post-war foreign exchange system that remained intact until the early 1970s. The conference resulted in the formation of the IMF. The system fixed currencies in a fixed exchange rate system with 1% fluctuations of the currency to gold or the dollar."
+    },
+    {
+      "term": "Bundesbank",
+      "definition": "Central Bank of Germany."
+    },
+    {
+      "term": "Buying Rate",
+      "definition": "Rate at which the market and a market maker in particular is willing to buy the currency. Sometimes called bid rate."
+    }
+  ],
+  "C": [
+    {
+      "term": "Currency Pair",
+      "definition": "Two currencies involved in a forex transaction."
+    },
+    {
+      "term": "Candlestick Chart",
+      "definition": "A type of chart used in technical analysis that displays the high, low, open, and close for a security over a specific period."
+    },
+    {
+      "term": "Carry Trade",
+      "definition": "A strategy in which an investor borrows money at a low interest rate to invest in an asset that provides a higher return."
+    },
+    {
+      "term": "Central Bank",
+      "definition": "The institution responsible for managing a country's currency, money supply, and interest rates."
+    },
+    {
+      "term": "Counter Currency",
+      "definition": "The second currency listed in a forex pair, also known as the quote currency."
+    },
+    {
+      "term": "Cable",
+      "definition": "A term used in the foreign exchange market for the US Dollar/British Pound rate."
+    },
+    {
+      "term": "Capital Risk",
+      "definition": "The risk arising from a bank having to pay to the counterparty without knowing whether the other party will or is able to meet its side of the bargain. See Herstatt."
+    },
+    {
+      "term": "Clean float",
+      "definition": "An exchange rate that is not materially affected by official intervention."
+    },
+    {
+      "term": "Closed position",
+      "definition": "A transaction which leaves the trade with a zero net commitment to the market with respect to a particular currency."
+    },
+    {
+      "term": "Commission",
+      "definition": "The fee that a broker may charge clients for dealing on their behalf."
+    },
+    {
+      "term": "Confirmation",
+      "definition": "A memorandum to the other party describing all the relevant details of the transaction."
+    },
+    {
+      "term": "Copey",
+      "definition": "Slang for the Danish krone."
+    },
+    {
+      "term": "Country risk",
+      "definition": "The risk attached to a borrower by virtue of its location in a particular country. This involves examination of economic, political, and geographical factors. Various organizations generate country risk tables."
+    },
+    {
+      "term": "Cross deal",
+      "definition": "A foreign exchange deal entered into involving two currencies, neither of which is the base currency."
+    },
+    {
+      "term": "Cross rates",
+      "definition": "Rates between two currencies, neither of which is the US Dollar."
+    }
+  ],
+  "D": [
+    {
+      "term": "Day Trading",
+      "definition": "Opening and closing the same position or positions within the same trading session."
+    },
+    {
+      "term": "Deposit",
+      "definition": "The borrowing and lending of cash. The rate that money is borrowed/lent at is known as the deposit rate (or depo rate). Certificates of Deposit (CD's) are also tradable instruments."
+    },
+    {
+      "term": "Derivatives",
+      "definition": "Trades that are constructed or derived from another security (stock, bond, currency, or commodity). Derivatives can be both exchange and non-exchange traded (known as Over the Counter or OTC). Examples of derivative instruments include Options, Interest Rate Swaps, Forward Rate Agreements, Caps, Floors and Swap options."
+    },
+    {
+      "term": "Deal Ticket",
+      "definition": "The primary method of recording the basic information relating to a transaction."
+    },
+    {
+      "term": "Deflator",
+      "definition": "Difference between real and nominal Gross National Product, which is equivalent to the overall inflation rate."
+    },
+    {
+      "term": "Delivery date",
+      "definition": "The date of maturity of the contract, when the exchange of the currencies is made. This date is more commonly known as the value date in the FX or Money markets."
+    },
+    {
+      "term": "Delivery Risk",
+      "definition": "A term to describe when a counterparty will not be able to complete his side of the deal, although willing to do so."
+    },
+    {
+      "term": "Depreciation",
+      "definition": "A fall in the value of a currency due to market forces rather than due to official action."
+    },
+    {
+      "term": "Desk",
+      "definition": "Term referring to a group dealing with a specific currency or currencies."
+    },
+    {
+      "term": "Details",
+      "definition": "All the information required to finalize a foreign exchange transaction, i.e. name, rate, dates, and point of delivery."
+    },
+    {
+      "term": "Devaluation",
+      "definition": "Deliberate downward adjustment of a currency against its fixed parities or bands, normally by formal announcement."
+    },
+    {
+      "term": "Direct quotation",
+      "definition": "Quoting in fixed units of foreign currency against variable amounts of the domestic currency."
+    }
+  ],
+  "E": [
+    {
+      "term": "Economic Calendar",
+      "definition": "A calendar that shows scheduled economic events and data releases that may impact financial markets."
+    },
+    {
+      "term": "Elliott Wave Theory",
+      "definition": "A technical analysis approach that suggests financial markets move in repetitive patterns or waves."
+    },
+    {
+      "term": "Exchange Rate",
+      "definition": "The price of one currency in terms of another currency."
+    },
+    {
+      "term": "Equity",
+      "definition": "The value of an account if all positions were closed at the current market price."
+    },
+    {
+      "term": "Economic Indicator",
+      "definition": "A statistic that indicates current economic growth and stability issued by the government or a non-government institution (i.e. Gross Domestic Product (GDP), Employment Rates, Trade Deficits, Industrial Production, and Business Inventories)."
+    },
+    {
+      "term": "Efficient Market",
+      "definition": "A market in which the current price reflects all available information from past prices and volumes."
+    },
+    {
+      "term": "End Of Day (or Mark to Market)",
+      "definition": "Traders account for their positions in two ways: accrual or mark-to-market. An accrual system accounts only for cash flows when they occur, hence, it only shows a profit or loss when realized. The mark-to-market method values the trader's book at the end of each working day using the closing market rates or revaluation rates. Any profit or loss is booked and the trader will start the next day with a net position."
+    },
+    {
+      "term": "Euro",
+      "definition": "The currency of the European Monetary Union (EMU) which replaced the European Currency Unit (ECU)."
+    },
+    {
+      "term": "European Central Bank",
+      "definition": "The Central Bank for the European Monetary Union."
+    },
+    {
+      "term": "ECU",
+      "definition": "European Currency Unit."
+    },
+    {
+      "term": "EDI",
+      "definition": "Electronic Data Interchange."
+    },
+    {
+      "term": "Effective Exchange Rate",
+      "definition": "An attempt to summarize the effects on a country's trade balance of its currency's changes against other currencies."
+    },
+    {
+      "term": "EFT",
+      "definition": "Electronic Fund Transfer."
+    },
+    {
+      "term": "EMS",
+      "definition": "European Monetary System."
+    },
+    {
+      "term": "Exchange control",
+      "definition": "Rules used to preserve or protect the value of a country's currency."
+    },
+    {
+      "term": "Exotic",
+      "definition": "A less broadly traded currency."
+    }
+  ],
+  "F": [
+    {
+      "term": "Forex (FX)",
+      "definition": "Short for foreign exchange, the global marketplace for buying and selling currencies."
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "definition": "A technical analysis tool used to identify potential support and resistance levels based on the Fibonacci sequence."
+    },
+    {
+      "term": "Fast market",
+      "definition": "Rapid movement in a market caused by strong interest by buyers and/or sellers. In such circumstances price levels may be omitted and bid and offer quotations may occur too rapidly to be fully reported."
+    },
+    {
+      "term": "Fed Fund Rate",
+      "definition": "The interest rate on Fed funds. This is a closely watched short term interest rate as it signals the Feds view as to the state of the money supply."
+    },
+    {
+      "term": "Fed",
+      "definition": "The United States Federal Reserve. Federal Deposit Insurance Corporation Membership is compulsory for Federal Reserve members. The corporation had deep involvement in the Savings and Loans crisis of the late 80s."
+    },
+    {
+      "term": "Federal Reserve System",
+      "definition": "The central banking system in the United States."
+    },
+    {
+      "term": "Fill or Kill",
+      "definition": "An order which must be entered for trading, normally in a pit three times, if not filled is immediately canceled."
+    },
+    {
+      "term": "Floating exchange rate",
+      "definition": "An exchange rate where the value is determined by market forces. Even floating currencies are subject to intervention by the monetary authorities. When such activity is frequent the float is known as a dirty float."
+    },
+    {
+      "term": "FOMC",
+      "definition": "Federal Open Market Committee, the committee that sets money supply targets in the US which tend to be implemented through Fed Fund interest rates etc."
+    },
+    {
+      "term": "Foreign Exchange",
+      "definition": "The purchase or sale of a currency against sale or purchase of another."
+    },
+    {
+      "term": "Forward Outright",
+      "definition": "A commitment to buy or sell a currency for delivery on a specified future date or period. The price is quoted as the Spot rate minus or plus the forward points for the chosen period."
+    },
+    {
+      "term": "Forward Rate",
+      "definition": "Forward rates are quoted in terms of forward points , which represents the difference between the forward and spot rates. In order to obtain the forward rate from the actual exchange rate the forward points are either added or subtracted from the exchange rate. The decision to subtract or add points is determined by the differential between the deposit rates for both currencies concerned in the transaction. The base currency with the higher interest rate is said to be at a discount to the lower interest rate quoted currency in the forward market. Therefor the forward points are subtracted from the spot rate. Similarly, the lower interest rate base currency is said to be at a premium, and the forward points are added to the spot rate to obtain the forward rate."
+    },
+    {
+      "term": "Free Reserves",
+      "definition": "Total reserves held by a bank less the reserves required by the authority."
+    },
+    {
+      "term": "Front Office",
+      "definition": "The activities carried out by the dealer , normal trading activities."
+    },
+    {
+      "term": "Fundamental Analysis",
+      "definition": "A method of analyzing securities by evaluating the underlying factors that affect their value."
+    }
+  ],
+  "G": [
+    {
+      "term": "Gap",
+      "definition": "A discontinuity in a security's price chart where there is no trading activity between two periods."
+    },
+    {
+      "term": "Going Long",
+      "definition": "Buying a security in anticipation of its price rising."
+    },
+    {
+      "term": "Going Short",
+      "definition": "Selling a security in anticipation of its price falling."
+    },
+    {
+      "term": "Gross Domestic Product (GDP)",
+      "definition": "The total monetary value of all goods and services produced within a country's borders during a specific period."
+    },
+    {
+      "term": "G7",
+      "definition": "The seven leading industrial countries, being US, Germany, Japan, France, UK, Canada, Italy."
+    },
+    {
+      "term": "G10",
+      "definition": "G7 plus Belgium, Netherlands and Sweden, a group associated with IMF discussions. Switzerland is sometimes peripherally involved."
+    },
+    {
+      "term": "Gold Standard",
+      "definition": "The original system for supporting the value of currency issued. The was that where the price of gold is fixed against the currency it means that the increased supply of gold does not lower the price of gold but causes prices to increase."
+    },
+    {
+      "term": "Good until canceled",
+      "definition": "An instruction to a broker that unlike normal practice the order does not expire at the end of the trading day, although normally terminates at the end of the trading month."
+    },
+    {
+      "term": "Grid",
+      "definition": "Fixed margin within which exchange rates are allowed to fluctuate."
+    },
+    {
+      "term": "Gross National Product",
+      "definition": "Gross domestic product plus 'factor income from abroad' - income earned from investment or work abroad."
+    }
+  ],
+  "H": [
+    {
+      "term": "Hedge",
+      "definition": "A strategy used to offset potential losses from adverse price movements in one asset by taking an opposite position in another asset."
+    },
+    {
+      "term": "High-Frequency Trading (HFT)",
+      "definition": "Trading strategies that use advanced algorithms and high-speed computer systems to execute trades at extremely fast speeds."
+    },
+    {
+      "term": "Historical Volatility",
+      "definition": "A statistical measure of the dispersion of returns for a financial instrument over a specific period."
+    },
+    {
+      "term": "High/Low",
+      "definition": "Usually the highest traded price and the lowest traded price for the underlying instrument for the current trading day."
+    },
+    {
+      "term": "Hard currency",
+      "definition": "Any one of the major world currencies that is well traded and easily converted into other currencies."
+    },
+    {
+      "term": "Head and Shoulders",
+      "definition": "A pattern in price trends which chartists consider indicates a price trend reversal. The price has risen for some time, at the peak of the left shoulder, profit-taking has caused the price to drop or level. The price then rises steeply again to the head before more profit-taking causes the price to drop to around the same level as the shoulder. A further modest rise or level will indicate that a further major fall is imminent. The breach of the neckline is the indication to sell."
+    }
+  ],
+  "I": [
+    {
+      "term": "Initial Margin",
+      "definition": "The initial deposit required by a broker from a trader to open a position."
+    },
+    {
+      "term": "Inter-bank rates",
+      "definition": "The bid and offer rates at which international banks place deposits with each other. The basis of the Interbank market."
+    },
+    {
+      "term": "ISDA",
+      "definition": "The body that sets terms and conditions for derivative trades is The International Swaps and Derivatives Association."
+    },
+    {
+      "term": "IMM",
+      "definition": "International Monetary Market part of the Chicago Mercantile Exchange that lists a number of currency and financial futures Implied volatilityA measurement of the market's expected price range of the underlying currency futures based on the traded option premiums."
+    },
+    {
+      "term": "Implied Rates",
+      "definition": "The interest rate determined by calculating the difference between spot and forward rates."
+    },
+    {
+      "term": "Indicative quote",
+      "definition": "A market-maker's price which is not firm."
+    },
+    {
+      "term": "Inflation",
+      "definition": "Continued rise in the general price level in conjunction with a related drop in purchasing power. Sometimes referred to as an excessive movement in such price levels."
+    },
+    {
+      "term": "Interest Arbitrage",
+      "definition": "Switching into another currency by buying spot and selling forward, and investing proceeds in order to obtain a higher interest yield. Interest arbitrage can be inward, i.e. from foreign currency into the local one or outward, i.e. from the local currency to the foreign one. Sometimes better results can be obtained by not selling the forward interest amount. In that case some treat it as no longer being a complete arbitrage, as if the exchange rate moved against the arbitrageur, the profit on the transaction may create a loss."
+    },
+    {
+      "term": "Interest rate Swaps",
+      "definition": "An agreement to swap interest rate exposures from floating to fixed or vice versa. There is no swap of the principal. It is the interest cash flows be they payments or receipts that are exchanged."
+    },
+    {
+      "term": "Intervention",
+      "definition": "Action by a central bank to effect the value of its currency by entering the market. Concerted intervention refers to action by a number of central banks to control exchange rates."
+    },
+    {
+      "term": "Inflation",
+      "definition": "The rate at which the general level of prices for goods and services is rising, eroding purchasing power."
+    },
+    {
+      "term": "Interbank Market",
+      "definition": "A decentralized market where banks and financial institutions trade currencies directly with each other."
+    },
+    {
+      "term": "IMF",
+      "definition": "International Monetary Fund, established in 1946 to provide international liquidity on a short and medium term and encourage liberalization of exchange rates. The IMF supports countries with balance of payments problems with the provision of loans."
+    }
+  ],
+  "J": [
+    {
+      "term": "Japanese Candlestick",
+      "definition": "A type of chart used in technical analysis that displays the high, low, open, and close for a security over a specific period."
+    }
+  ],
+  "K": [
+    {
+      "term": "Kiwi",
+      "definition": "Nickname for the New Zealand dollar (NZD)."
+    }
+  ],
+  "L": [
+    {
+      "term": "Leverage",
+      "definition": "The ability to control a large position in the market with a relatively small amount of capital."
+    },
+    {
+      "term": "Liquidity",
+      "definition": "The degree to which an asset or security can be quickly bought or sold in the market without significantly affecting its price."
+    },
+    {
+      "term": "Liquid and Illiquid Markets",
+      "definition": "The ability of a market to buy and sell at ease with no impact on price stability. A market is described as liquid if the spread between the bid and the offer is small. Another measure of liquidity is the presence of buyers and sellers, with more players creating tighter spreads. Illiquid markets have few players, hence, wider dealing spreads."
+    },
+    {
+      "term": "Liquid Assets",
+      "definition": "Assets that can be easily converted into cash. Examples include money market fund shares, US Treasury Bills, bank deposits, etc."
+    },
+    {
+      "term": "Long",
+      "definition": "A position to purchase more of an instrument than is sold, hence, an appreciation in value if market prices increase."
+    },
+    {
+      "term": "Leading Indicators",
+      "definition": "Statistics that are considered to precede changes in economic growth rates and total business activity, e.g., factory orders."
+    },
+    {
+      "term": "Liability",
+      "definition": "In terms of foreign exchange, the obligation to deliver to a counterparty an amount of currency either in respect of a balance sheet holding at a specified future date or in respect of an unmatured forward or spot transaction."
+    },
+    {
+      "term": "Limit order",
+      "definition": "A request to deal as a buyer or seller for a foreign currency transaction at a specified price, or at a better price, if obtainable."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "Any transaction that offsets or closes out a previously established position."
+    },
+    {
+      "term": "Liquidity",
+      "definition": "The ability of a market to accept large transactions."
+    }
+  ],
+  "M": [
+    {
+      "term": "Margin Call",
+      "definition": "A demand from a broker for additional funds to cover potential losses if the value of a trader's account falls below a certain threshold."
+    },
+    {
+      "term": "Maintenance margin",
+      "definition": "The minimum margin which an investor must keep on deposit in a margin account at all times in respect of each open contract."
+    },
+    {
+      "term": "Make a market",
+      "definition": "A dealer is said to make a market when he or she quotes bid and offer prices at which he or she stands ready to buy and sell."
+    },
+    {
+      "term": "Market order",
+      "definition": "An order to buy or sell a financial instrument immediately at the best possible price."
+    },
+    {
+      "term": "Microeconomics",
+      "definition": "The study of economic activity as it applies to individual firms or well-defined small groups of individuals or economic sectors."
+    },
+    {
+      "term": "Mid-price or middle rate",
+      "definition": "The price halfway between the two prices, or the average of both buying and selling prices offered by the market makers."
+    },
+    {
+      "term": "Minimum price fluctuation",
+      "definition": "The smallest increment of market price movement possible in a given futures contract."
+    },
+    {
+      "term": "Monetary Base",
+      "definition": "Currency in circulation plus banks' required and excess deposits at the central bank."
+    },
+    {
+      "term": "Moving Average",
+      "definition": "A way of smoothing a set of data, widely used in price time series."
+    },
+    {
+      "term": "MACD (Moving Average Convergence Divergence)",
+      "definition": "A technical analysis indicator that shows the relationship between two moving averages of a security's price."
+    }
+  ],
+  "N": [
+    {
+      "term": "Narrow Market",
+      "definition": "A market with low liquidity and wide bid-ask spreads."
+    },
+    {
+      "term": "Non-Farm Payrolls (NFP)",
+      "definition": "A monthly report released by the U.S. Bureau of Labor Statistics that measures the number of jobs added or lost in the non-farm sector."
+    },
+    {
+      "term": "Net Position",
+      "definition": "The amount of currency bought or sold which has not yet been offset by opposite transactions."
+    }
+  ],
+  "O": [
+    {
+      "term": "Open Order",
+      "definition": "An order to buy or sell when a market moves to its designated price."
+    },
+    {
+      "term": "Open Position",
+      "definition": "A deal not yet reversed or settled and the investor is subject to exchange rate movements."
+    },
+    {
+      "term": "Order",
+      "definition": "An instruction, from a client to a broker to trade. An order can be placed at a specific price or at the market price. Also, it can be good until filled or until close of business."
+    },
+    {
+      "term": "Overnight",
+      "definition": "A trade that remains open until the next business day."
+    },
+    {
+      "term": "Over The Counter (OTC)",
+      "definition": "Used to describe any transaction that is not conducted over an exchange."
+    },
+    {
+      "term": "Offer",
+      "definition": "The price at which a seller is willing to sell. The best offer is the lowest such price available."
+    },
+    {
+      "term": "Offset",
+      "definition": "The closing-out or liquidation of a futures position."
+    },
+    {
+      "term": "Off-shore",
+      "definition": "The operations of a financial institution which although physically located in a country, has little connection with that country's financial systems. In certain countries a bank is not permitted to do business in the domestic market but only with other foreign banks. This is known as an off shore banking unit."
+    },
+    {
+      "term": "Overnight limit",
+      "definition": "Net long or short position in one or more currencies that a dealer can carry over into the next dealing day. Passing the book to other bank dealing rooms in the next trading time zone reduces the need for dealers to maintain these unmonitored exposures."
+    },
+    {
+      "term": "Option",
+      "definition": "A financial derivative that gives the holder the right, but not the obligation, to buy or sell an underlying asset at a specified price within a predetermined time frame."
+    },
+    {
+      "term": "Oscillator",
+      "definition": "A technical analysis indicator that fluctuates above and below a central line to indicate overbought or oversold conditions in a security's price."
+    },
+    {
+      "term": "Offsetting Transaction",
+      "definition": "A trade that serves to cancel or offset some or all of the market risk of an open position."
+    }
+  ],
+  "P": [
+    {
+      "term": "Pips",
+      "definition": "The smallest price move that a given exchange rate can make based on market convention."
+    },
+    {
+      "term": "Pip (or Points)",
+      "definition": "The term used in currency market to represent the smallest incremental move an exchange rate can make. Depending on context, normally one basis point (0.0001 in the case of EUR/USD, GBD/USD, USD/CHF and .01 in the case of USD/JPY)."
+    },
+    {
+      "term": "Pivot Point",
+      "definition": "A technical analysis indicator used to determine potential support and resistance levels based on the previous period's high, low, and close prices."
+    },
+    {
+      "term": "Position",
+      "definition": "An investor's exposure to a particular asset or security."
+    },
+    {
+      "term": "Profit Taking",
+      "definition": "The act of closing a position to lock in gains."
+    },
+    {
+      "term": "Pyramiding",
+      "definition": "A trading strategy in which a trader adds to their position as the market moves in their favor."
+    }
+  ],
+
+  "Q": [
+    {
+      "term": "Quote Currency",
+      "definition": "The second currency listed in a forex pair, also known as the counter currency."
+    },
+    {
+      "term": "Quote Convention",
+      "definition": "The way in which currencies are quoted in the forex market, typically in terms of the base currency per unit of the quote currency."
+    }
+  ],
+  "R": [ 
+    {
+      "term": "Range",
+      "definition": "The difference between the highest and lowest prices of a security over a specific period."
+    },
+    {
+      "term": "Rollover",
+      "definition": "The process of extending the settlement date of an open position by rolling it over to the next trading day."
+    },
+    {
+      "term": "Rally",
+      "definition": "A recovery in price after a period of decline."
+    },
+    {
+      "term": "Rate",
+      "definition": "(1) The price of one currency in terms of another, normally against USD. (2) Assessment of the credit worthiness of an institution."
+    },
+    {
+      "term": "Reaction",
+      "definition": "A decline in prices following an advance."
+    },
+    {
+      "term": "Revaluation",
+      "definition": "Increase in the exchange rate of a currency as a result of official action."
+    },
+    {
+      "term": "Risk management",
+      "definition": "The identification and acceptance or offsetting of the risks threatening the profitability or existence of an organisation. With respect to foreign exchange involves among others consideration of market, sovereign, country, transfer, delivery, credit, and counterparty risk."
+    },
+    {
+      "term": "Risk Position",
+      "definition": "An asset or liability, which is exposed to fluctuations in value through changes in exchange rates or interest rates."
+    }
+  ],
+  "S": [
+    {
+      "term": "Spot",
+      "definition": "(1) The most common foreign exchange transaction. (2) Spot or Spot date refers to the spot transaction value date that requires settlement within two business days, subject to value date calculation."
+    },
+    {
+      "term": "Selling rate",
+      "definition": "Rate at which a bank is willing to sell foreign currency."
+    },
+    {
+      "term": "Same day transaction",
+      "definition": "A transaction that matures on the day the transaction takes place."
+    },
+    {
+      "term": "Settlement date",
+      "definition": "The date upon which foreign exchange contracts settle."
+    },
+    {
+      "term": "Settlement Risk",
+      "definition": "Where a payment is made to a counter party before the counter value payment has been made. The risk is that the counter party's payment will not be received."
+    },
+    {
+      "term": "Short sale",
+      "definition": "The sale of a specified amount of currency not owned by the seller at the time of the trade. Short sales are usually made in expectation of a decline in the price."
+    },
+    {
+      "term": "Spot Market",
+      "definition": "A market where financial instruments are traded for immediate delivery and payment."
+    },
+    {
+      "term": "Spread",
+      "definition": "The difference between the bid and ask prices of a currency pair."
+    },
+    {
+      "term": "Sterling",
+      "definition": "Nickname for the British pound (GBP)."
+    },
+    {
+      "term": "Swap price",
+      "definition": "A price as a differential between two dates of the swap."
+    },
+    {
+      "term": "Swap",
+      "definition": "The simultaneous purchase and sale of the same amount of a given currency for two different dates, against the sale and purchase of another. A swap can be a swap against a forward. In essence, swapping is somewhat similar to borrowing one currency and lending another for the same period. However, any rate of return or cost of funds is expressed in the price differential between the two sides of the transaction."
+    },
+    {
+      "term": "Swissy",
+      "definition": "Market slang for Swiss Franc."
+    },
+    {
+      "term": "Same day transaction",
+      "definition": "A transaction that matures on the day the transaction takes place."
+    },
+    {
+      "term": "Selling rate",
+      "definition": "Rate at which a bank is willing to sell foreign currency."
+    },
+    {
+      "term": "Settlement date",
+      "definition": "The date upon which foreign exchange contracts settle."
+    },
+    {
+      "term": "Settlement Risk",
+      "definition": "Where a payment is made to a counter party before the counter value payment has been made. The risk is that the counter party's payment will not be received."
+    },
+    {
+      "term": "Short sale",
+      "definition": "The sale of a specified amount of currency not owned by the seller at the time of the trade. Short sales are usually made in expectation of a decline in the price."
+    },
+    {
+      "term": "Spot",
+      "definition": "(1) The most common foreign exchange transaction. (2) Spot or Spot date refers to the spot transaction value date that requires settlement within two business days, subject to value date calculation."
+    },
+    {
+      "term": "Spot next",
+      "definition": "The overnight swap from the spot date to the next business day."
+    },
+    {
+      "term": "Spot price/rate",
+      "definition": "The price at which the currency is currently trading in the spot market."
+    },
+    {
+      "term": "Squeeze",
+      "definition": "Action by a central bank to reduce supply in order to increase the price of money."
+    },
+    {
+      "term": "Stable market",
+      "definition": "An active market which can absorb large sale or purchases of currency without major moves."
+    },
+    {
+      "term": "Standard",
+      "definition": "A term referring to certain normal amounts and maturities for dealing."
+    },
+    {
+      "term": "Stop-Loss order",
+      "definition": "Order to buy or sell at the best available price when a given price threshold has been reached."
+    },
+    {
+      "term": "Support levels",
+      "definition": "When an exchange rate depreciates or appreciates to a level where (1) Technical analysis techniques suggest that the currency will rebound, or not go below; (2) the monetary authorities intervene to stop any further down ward movement. See resistance point."
+    },
+    {
+      "term": "Scalping",
+      "definition": "A trading strategy that involves making numerous small trades to capitalize on minor price movements."
+    },
+    {
+      "term": "Slippage",
+      "definition": "The difference between the expected price of a trade and the price at which it is executed."
+    },
+    {
+      "term": "Support Level",
+      "definition": "A price level at which a security tends to stop falling and may start to rise."
+    },
+    {
+      "term": "Swing Trading",
+      "definition": "A trading strategy that seeks to capture short- to medium-term gains by holding positions for several days to weeks."
+    }
+  ],
+  "T": [
+    {
+      "term": "Technical Analysis",
+      "definition": "A method of analyzing securities based on historical price and volume data to predict future price movements."
+    },
+    {
+      "term": "Take-Profit Order",
+      "definition": "An order placed with a broker to automatically close a position when it reaches a specified profit level."
+    },
+    {
+      "term": "Tick",
+      "definition": "The smallest possible price movement for a security."
+    },
+    {
+      "term": "Trend",
+      "definition": "The general direction in which a security's price is moving over time."
+    },
+    {
+      "term": "Trade date",
+      "definition": "The date on which a trade occurs."
+    },
+    {
+      "term": "Transaction Cost",
+      "definition": "The cost associated with buying or selling of a financial instrument."
+    },
+    {
+      "term": "Transaction Date",
+      "definition": "The date on which the trade occurs."
+    },
+    {
+      "term": "Turnover",
+      "definition": "The volume traded, or level of trading, over a specified period, usually daily or yearly."
+    },
+    {
+      "term": "Two Way Price",
+      "definition": "Both the bid and offer rate is quoted for a Forex transaction."
+    },
+    {
+      "term": "Thin market",
+      "definition": "A market in which trading volume is low and in which consequently bid and ask quotes are wide and the liquidity of the instrument traded is low."
+    },
+    {
+      "term": "Today/Tomorrow",
+      "definition": "Simultaneous buying of a currency for delivery the following day and selling for the spot day, or vice versa. Also referred to as overnight."
+    },
+    {
+      "term": "Tomorrow next (Tom next)",
+      "definition": "Simultaneous buying of a currency for delivery the following day and selling for the spot day or vice versa."
+    },
+    {
+      "term": "Tradeable amount",
+      "definition": "Smallest transaction size acceptable."
+    },
+    {
+      "term": "Transaction",
+      "definition": "The buying or selling of currencies resulting from the execution of an order."
+    }
+  ],
+  "U": [
+    {
+      "term": "Uptrend",
+      "definition": "A series of higher highs and higher lows in a security's price over time."
+    },
+    {
+      "term": "Uptick Rule",
+      "definition": "In the U.S., a regulation which states that a security may not be sold short unless the trade prior to the short sale was at a price lower than the price at which the short sale is executed."
+    },
+    {
+      "term": "Uncovered",
+      "definition": "Another term for an open position."
+    },
+    {
+      "term": "Under-valuation",
+      "definition": "An exchange rate is normally considered to be undervalued when it is below its purchasing power parity."
+    },
+    {
+      "term": "Up tick",
+      "definition": "A transaction executed at a price greater than the previous transaction."
+    }
+  ],
+  "V": [
+    {
+      "term": "Volatility",
+      "definition": "A statistical measure of the dispersion of returns for a security or market index."
+    },
+    {
+      "term": "Volume",
+      "definition": "The number of shares or contracts traded in a security or market during a specific period."
+    },
+    {
+      "term": "Value Date",
+      "definition": "The date that both parties of a transaction agree to exchange payments."
+    },
+    {
+      "term": "Value Spot",
+      "definition": "Normally settlement for two working days from today. See value date."
+    }
+  ],
+  "W": [
+    {
+      "term": "Working day",
+      "definition": "A day on which the banks in a currency's principal financial centre are open for business. For FX transactions, a working day only occurs if the bank in both financial centre's are open for business (all relevant currency centers in the case of a cross are open)."
+    },
+    {
+      "term": "Whipsaw",
+      "definition": "A situation in which a trader is stopped out of a position due to a sudden reversal in price after a brief period of moving in their favor."
+    },
+    {
+      "term": "Warrants",
+      "definition": "Warrants are a form of traded option. They are the right to purchase shares or bonds issued by a company at a specific price within a specified time span."
+    },
+    {
+      "term": "Wash trade",
+      "definition": "A term used to describe a condition in a highly volatile market where a sharp price movement is quickly followed by a sharp reversal."
+    },
+    {
+      "term": "Wash trade",
+      "definition": "A matched deal which produces neither a gain nor a loss."
+    }
+  ],
+  "Y": [
+    {
+      "term": "Yard",
+      "definition": "Another term for a billion"
+    }
+  ]
+}

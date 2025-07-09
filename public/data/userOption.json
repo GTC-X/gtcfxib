@@ -1,0 +1,26 @@
+[
+  {
+    "name": "option1",
+    "value": "Introducing Broker"
+  },
+  {
+    "name": "option2",
+    "value": "Trader"
+  },
+  {
+    "name": "option3",
+    "value": "Affiliate"
+  },
+  {
+    "name": "option4",
+    "value": "Learner"
+  },
+  {
+    "name": "option5",
+    "value": "Looking for Liquidity"
+  },
+  {
+    "name": "option6",
+    "value": "None of above"
+  }
+]
