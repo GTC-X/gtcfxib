@@ -87,7 +87,7 @@ const ToolFreeContact = () => {
                 <FaWhatsapp />
               </p>
               <h2 className="bg-gradient-to-r from-primary to-secondary inline-block text-transparent bg-clip-text HeadingH2 text-left mb-0">
-                Contact Us Via WhatsApp
+                 {t("whatsappHeading")}
               </h2>
             </div>
 
