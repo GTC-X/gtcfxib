@@ -96,6 +96,7 @@ const ToolFreeContact = () => {
                 href="https://wa.me/9647502207788"
                 target="_blank"
                 rel="noopener noreferrer"
+                 dir="ltr"
                 className="flex bg-gray-100 items-center justify-center gap-2 px-3 md:px-12 py-2 md:py-3 group hover:bg-secondary rounded-3xl hover:rounded-3xl hover:cursor-pointer transition-all duration-300 hover:shadow-xl"
               >
                 <FaWhatsapp className="text-green-600 group-hover:text-white text-2xl" />
