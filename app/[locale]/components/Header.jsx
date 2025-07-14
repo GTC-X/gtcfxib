@@ -144,14 +144,14 @@ const Header = ({currentLanguage}) => {
   const [href, setHref] = useState([
     {
       href: "/",
-      locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+      locale: "en,ar-AE",
     },
   ]);
   const isAr = pathname.includes("/ar-AE");
   const navigationData = [
     {
       title: t("about.lable"),
-      locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+      locale: "en,ar-AE",
       description: t("about.des"),
       id: 1,
       links: [
@@ -162,17 +162,17 @@ const Header = ({currentLanguage}) => {
             {
               href: "/about-us",
               label: t("about.firstcolumn.option1"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/why-gtc-group",
               label: t("about.firstcolumn.option2"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/regulations",
               label: t("about.firstcolumn.option3"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
 
           ],
@@ -184,12 +184,12 @@ const Header = ({currentLanguage}) => {
             {
               href: "/global-presence",
               label: t("about.secondcolumn.option1"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/awards",
               label: t("about.secondcolumn.option2"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/compensation-fund",
@@ -206,7 +206,7 @@ const Header = ({currentLanguage}) => {
             {
               href: "/contact-us",
               label: t("about.thirdcolumn.option3"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
           ],
         },
@@ -215,7 +215,7 @@ const Header = ({currentLanguage}) => {
     {
       title: t("account.lable"),
       href: "#",
-      locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+      locale: "en,ar-AE",
       description: t("account.des"),
       id: 2,
       links: [
@@ -224,19 +224,19 @@ const Header = ({currentLanguage}) => {
           title: t("account.firstcolumn.heading"),
           items: [
             {
-              href: "https://mygtcfx.com/getview?view=register",
+              href: "https://web.mygtc.app/login/register?code=2545520&scope=1",
               label: t("account.firstcolumn.option1"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/free-demo-account",
               label: t("account.firstcolumn.option3"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/deposit",
               label: t("account.firstcolumn.option2"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
           ],
         },
@@ -247,7 +247,7 @@ const Header = ({currentLanguage}) => {
             {
               href: "/account-types",
               label: t("account.secondcolumn.option1"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
           ],
         },
@@ -258,7 +258,7 @@ const Header = ({currentLanguage}) => {
             {
               href: "/cashback-bonus-promotion",
               label: t("account.thirdcolumn.option1"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
           ],
         },
@@ -267,7 +267,7 @@ const Header = ({currentLanguage}) => {
     {
       title: t("trading.lable"),
       href: "#",
-      locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+      locale: "en,ar-AE",
       description: t("trading.des"),
       id: 3,
       links: [
@@ -278,37 +278,37 @@ const Header = ({currentLanguage}) => {
             {
               href: "/forex",
               label: t("trading.firstcolumn.option1"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/cfd-energy",
               label: t("trading.firstcolumn.option6"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/shares",
               label: t("trading.firstcolumn.option7"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/stock",
               label: t("trading.firstcolumn.option3"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/commodities",
               label: t("trading.firstcolumn.option4"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/indices",
               label: t("trading.firstcolumn.option5"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/precious-metals",
               label: t("trading.firstcolumn.option2"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             
            
@@ -321,12 +321,12 @@ const Header = ({currentLanguage}) => {
             {
               href: "/mt5-platform",
               label: t("trading.secondcolumn.option2"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/download-app",
               label: t("trading.secondcolumn.option3"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
           ],
         },
@@ -347,17 +347,17 @@ const Header = ({currentLanguage}) => {
             {
               href: "/economic-calendar",
               label: t("trading.thirdcolumn.option2"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/market-overview",
               label: t("trading.thirdcolumn.option3"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/glossary-faqs",
               label: t("trading.thirdcolumn.option4"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/dynamic-leverage",
@@ -376,7 +376,7 @@ const Header = ({currentLanguage}) => {
     {
       title: t("partner.lable"),
       href: "#",
-      locale: "en,ar-AE,zh-hans,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF,pt-PT,tr-TR,",
+      locale: "en,ar-AE",
       description: t("partner.des"),
       id: 4,
       links: [
@@ -385,7 +385,7 @@ const Header = ({currentLanguage}) => {
             {
               href: "/introductory-broker",
               label: t("partner.firstcolumn.option1"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
           ],
         },
@@ -394,7 +394,7 @@ const Header = ({currentLanguage}) => {
             {
               href: "/affiliate-program",
               label: t("partner.thirdcolumn.option1"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
           ],
         },
@@ -403,7 +403,7 @@ const Header = ({currentLanguage}) => {
     {
       title: t("technology.lable"),
       href: "#",
-      locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+      locale: "en,ar-AE",
       description: t("technology.des"),
       id: 5,
       links: [
@@ -414,12 +414,12 @@ const Header = ({currentLanguage}) => {
             {
               href: "/liquidity-technology",
               label: t("technology.firstcolumn.option1"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/copy-trading",
               label: t("technology.firstcolumn.option2"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
           ],
         },
@@ -430,22 +430,22 @@ const Header = ({currentLanguage}) => {
             {
               href: "/pamm-account",
               label: t("technology.secondcolumn.option1"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/mam-account",
               label: t("technology.secondcolumn.option2"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/signal-centre-tool",
               label: t("technology.secondcolumn.option3"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
             {
               href: "/vps-hosting-services",
               label: t("technology.secondcolumn.option4"),
-              locale: "en,ar-AE,zh-hans,zh-TW,it-IT,tr-TR,fr-FR,es-ES,pt-PT,ur-PK,hi-IN,vi-VN,id-ID,fa-IR,tl-PH,th-TH,ko-KR,,ja-JP,ms-MY,ru_RU,ps-AF",
+              locale: "en,ar-AE",
             },
           ],
         },

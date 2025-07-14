@@ -27,19 +27,19 @@ const TopBar = ({ currentLanguage, isAr, href }) => {
     // Define base links for different regions
     const baseLink = (() => {
         if (isIranianOrFarsi) {
-            return 'https://web.mygtc.app/login/register?code=2544249&scope=1'; // Iranian or Farsi
+            return 'https://web.mygtc.app/login/register?code=2545520&scope=1'; // Iranian or Farsi
         } else if (isEuropean) {
-            return 'https://web.mygtc.app/login/register?code=2544249&scope=1'; // European
+            return 'https://web.mygtc.app/login/register?code=2545520&scope=1'; // European
         } else if (isChilean) {
-            return 'https://web.mygtc.app/login/register?code=2544249&scope=1'; // Chilean token
+            return 'https://web.mygtc.app/login/register?code=2545520&scope=1'; // Chilean token
         } else if (countryCode === 'JP') {
-            return 'https://web.mygtc.app/login/register?code=2544249&scope=1'; // Japanese
+            return 'https://web.mygtc.app/login/register?code=2545520&scope=1'; // Japanese
         } else if (countryCode === 'PK') {
-            return 'https://web.mygtc.app/login/register?code=2544249&scope=1'; // Pakistani
+            return 'https://web.mygtc.app/login/register?code=2545520&scope=1'; // Pakistani
         } else if (countryCode === 'IN') {
-            return 'https://web.mygtc.app/login/register?code=2544249&scope=1'; // Indian
+            return 'https://web.mygtc.app/login/register?code=2545520&scope=1'; // Indian
         } else {
-            return 'https://web.mygtc.app/login/register?code=2544249&scope=1'; // Default
+            return 'https://web.mygtc.app/login/register?code=2545520&scope=1'; // Default
         }
     })();
 
