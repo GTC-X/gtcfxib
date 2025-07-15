@@ -28,30 +28,19 @@ const Hero = () => {
 
 
   return (
-    <section className="relative w-full h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] 2xl:h-[1000px] flex items-center justify-center text-center overflow-hidden">
-      {/* Background Image (visible until video loads) */}
-      {!videoLoaded && (
-        <img
-          src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/videos/gtc-brand.webp" // Change this to your actual image path
-          alt="Background Placeholder"
-          className="absolute inset-0 w-full h-full object-cover object-center"
-        />
-      )}
+    <section
+  className="relative w-full h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] 2xl:h-[850px] flex items-center justify-center text-center overflow-hidden"
+  style={{
+    backgroundImage: "url('/bannner.webp')", // path relative to /public
+    backgroundSize: 'cover',
+    backgroundPosition: 'center bottom',
+    backgroundRepeat: 'no-repeat',
+  }}
+>
+
 
       {/* Background Video */}
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        ref={videoRef}
-        className={`absolute inset-0 w-full h-full object-cover object-center transition-opacity duration-500 ${
-          videoLoaded ? "opacity-100" : "opacity-0"
-        }`}
-        onLoadedData={() => setVideoLoaded(true)} // Set state when video loads
-      >
-        <source src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/videos/overlay-gtcfx.mp4" type="video/mp4" />
-      </video>
+
       <div className="container relative z-10 text-white">
         <Swiper
           spaceBetween={30}
