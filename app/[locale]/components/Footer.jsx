@@ -238,11 +238,11 @@ const Footer = () => {
     {contact[0].links.map((link, index) => (
       <li
         key={index}
-        className="text-xs font-normal leading-7 text-white hover:text-secondary cursor-pointer flex justify-start items-center gap-2"
+        className="text-[10px] font-normal leading-7 text-white hover:text-secondary cursor-pointer flex justify-start items-center gap-2"
       >
         <link.icon size={18} className="text-secondary" />
         <b>{link.label}</b>
-        <p dir="ltr">{link.text}</p>
+        <p dir="ltr" className="text-[10px] md:text-base">{link.text}</p>
       </li>
     ))}
   </ul>
