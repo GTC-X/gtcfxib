@@ -19,13 +19,13 @@ const LiveAccountButton = ({ hoverStyle, link }) => {
   const isFarsi = locale === 'fa-IR'; // Check if the locale is Farsi (Iran)
 
   // Define links for different regions
-  const baseLink = isFarsi ? 'https://web.mygtc.app/login/register?code=2545520&scope=1' :
-                    isEuropean ? 'https://web.mygtc.app/login/register?code=2545520&scope=1' :
-                    isChilean ? 'https://web.mygtc.app/login/register?code=2545520&scope=1' : // Chile token
-                    isJapanese ? 'https://web.mygtc.app/login/register?code=2545520&scope=1' :
-                    isPakistani ? 'https://web.mygtc.app/login/register?code=2545520&scope=1' :
-                    isIndian ? 'https://web.mygtc.app/login/register?code=2545520&scope=1' :
-                    'https://web.mygtc.app/login/register?code=2545520&scope=1'; // Default link
+  const baseLink = isFarsi ? 'https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww' :
+                    isEuropean ? 'https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww' :
+                    isChilean ? 'https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww' : // Chile token
+                    isJapanese ? 'https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww' :
+                    isPakistani ? 'https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww' :
+                    isIndian ? 'https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww' :
+                    'https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww'; // Default link
   
   const finalLink = link || baseLink;
 

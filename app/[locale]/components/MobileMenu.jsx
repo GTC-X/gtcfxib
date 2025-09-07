@@ -61,7 +61,7 @@ export default function MobileMenu(props) {
           <div className="flex flex-row justify-center gap-4 items-center  p-3 border-b border-gray-300">
             <div className="">
               <Link
-                href="https://web.mygtc.app/login/register?code=2545520&scope=1"
+                href="https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww"
                 target="_blank"
                 className="uppercase border border-[#29a643] hover:bg-primary hover:text-white  text-[11px] px-3 py-[6px] md:flex gap-2 items-center"
               >
@@ -120,18 +120,12 @@ export default function MobileMenu(props) {
             ))}
             <Link
               target="_blank"
-              href="https://mygtcportal.com/"
+              href="https://mygtcportal.com"
               className="primaryButton rounded-none text-sm font-normal bg-primary hover:bg-secondary hover:text-primary flex gap-2 items-center"
             >
-              <MdOutlineLogin size={20} /> {t("new_client_portal")} 1
+              <MdOutlineLogin size={20} /> {t("new_client_portal")} 
             </Link>
-             <Link
-              target="_blank"
-              href="https://web.mygtc.app/login/login"
-              className="primaryButton rounded-none text-sm my-2 font-normal bg-primary hover:bg-secondary hover:text-primary flex gap-2 items-center"
-            >
-              <MdOutlineLogin size={20} /> {t("new_client_portal")} 2
-            </Link>
+
           </ul>
         </Popover.Panel>
       </Transition>

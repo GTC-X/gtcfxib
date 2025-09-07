@@ -224,7 +224,7 @@ const Header = ({currentLanguage}) => {
           title: t("account.firstcolumn.heading"),
           items: [
             {
-              href: "https://web.mygtc.app/login/register?code=2545520&scope=1",
+              href: "https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww",
               label: t("account.firstcolumn.option1"),
               locale: "en,ar-AE",
             },
