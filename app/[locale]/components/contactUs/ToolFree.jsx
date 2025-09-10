@@ -86,18 +86,18 @@ const ToolFreeContact = () => {
               <p className="text-green-500 text-4xl md:text-4xl">
                 <FaWhatsapp />
               </p>
-              <h2 className="bg-gradient-to-r from-primary to-secondary inline-block text-transparent bg-clip-text HeadingH2 text-left mb-0">
+              <h2 className="bg-gradient-to-r from-primary to-secondary inline-block text-transparent bg-clip-text text-xl font-semibold text-left mb-0">
                  {t("whatsappHeading")}
               </h2>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-4 justify-start items-center gap-4 py-6 mb-2">
+            <div className="grid grid-cols-1 justify-start items-center gap-4 py-6 mb-2">
               <Link
                 href="https://wa.me/9647502207788"
                 target="_blank"
                 rel="noopener noreferrer"
                  dir="ltr"
-                className="flex bg-gray-100 items-center justify-center gap-2 px-3 md:px-12 py-2 md:py-3 group hover:bg-secondary rounded-3xl hover:rounded-3xl hover:cursor-pointer transition-all duration-300 hover:shadow-xl"
+                className="flex bg-gray-100 items-left justify-start w-72 gap-2 px-3 md:px-12 py-2 md:py-3 group hover:bg-secondary rounded-3xl hover:rounded-3xl hover:cursor-pointer transition-all duration-300 hover:shadow-xl"
               >
                 <FaWhatsapp className="text-green-600 group-hover:text-white text-2xl" />
                 <span className="text-green-700 group-hover:text-white text-base font-medium">

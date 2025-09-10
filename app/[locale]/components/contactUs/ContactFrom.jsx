@@ -26,7 +26,6 @@ const ContactForm = () => {
   const formik = useFormik({
     initialValues: {
       first_name: "",
-      last_name: "",
       phone: "",
       email: "",
       country: "",
@@ -35,10 +34,7 @@ const ContactForm = () => {
     validationSchema: Yup.object({
       first_name: Yup.string()
         .min(2, t("error.min"))
-        .required(t("error.firstName")),
-      last_name: Yup.string()
-        .min(2, t("error.min"))
-        .required(t("error.lastName")),
+        .required(t2("error.fullName")),
       email: Yup.string()
         .email(t("error.invalidEmail"))
         .required(t("error.email")),
@@ -49,42 +45,20 @@ const ContactForm = () => {
     onSubmit: async (values) => {
       try {
         setLoading(true);
-        // Step 1: Send to internal API
-        const res = await fetch("/api/send-support-email", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(values),
-        });
-        await axios.post("https://hooks.zapier.com/hooks/catch/16420445/3gwk9ez/", JSON.stringify(values));
 
-        if (!res.ok) {
-          throw new Error("Failed to send support email");
-        }
-
-        // Step 2: Send to Zapier
-        // const zapierRes = await fetch(
-        //   "https://hooks.zapier.com/hooks/catch/16420445/3gwk9ez/",
-        //   {
-        //     method: "POST",
-        //     headers: { "Content-Type": "application/json" },
-        //     body: JSON.stringify({
-        //       ...values,
-        //       locale: locale, // Add locale for tracking
-        //       timestamp: new Date().toISOString(), // Add timestamp for Zapier
-        //     }),
-        //   }
-        // );
-
-        // if (!zapierRes.ok) {
-        //   console.warn("Zapier notification failed, but form submission succeeded");
-        // }
+        // Send to Zapier only
+        await axios.post("https://hooks.zapier.com/hooks/catch/16420445/udll9so/", JSON.stringify({
+          ...values,
+          locale: locale,
+          timestamp: new Date().toISOString(),
+        }));
 
         toast.success(t2("submitted_success"));
         formik.resetForm();
         router.push(`/${locale}/thank-you`);
       } catch (error) {
         console.error(error);
-        toast.error(t2("otp_error") || "An error occurred."); 
+        toast.error(t2("otp_error") || "An error occurred.");
       } finally {
         setLoading(false);
       }
@@ -102,16 +76,16 @@ const ContactForm = () => {
   }, [countryData?.country, countryList]);
 
   return (
-    <div className="p-4 md:p-8 border border-gray-300 bg-gray-100">
+    <div className="">
       <form onSubmit={formik.handleSubmit}>
         <div className="space-y-6">
           <div className="grid max-w-6xl grid-cols-1 gap-x-6 gap-y-2 sm:grid-cols-6 md:col-span-2 text-left">
             {/* First Name */}
-            <div className="sm:col-span-3">
+            <div className="col-span-full">
               <input
                 type="text"
                 name="first_name"
-                placeholder={t("form.first-name")}
+                placeholder={t2("fullName")}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
                 value={formik.values.first_name}
@@ -126,28 +100,8 @@ const ContactForm = () => {
               )}
             </div>
 
-            {/* Last Name */}
-            <div className="sm:col-span-3">
-              <input
-                type="text"
-                name="last_name"
-                placeholder={t("form.last-name")}
-                onChange={formik.handleChange}
-                onBlur={formik.handleBlur}
-                value={formik.values.last_name}
-                className={`block w-full bg-white border p-2 placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6 ${
-                  formik.touched.last_name && formik.errors.last_name
-                    ? "border-red-600"
-                    : "border-gray-200"
-                }`}
-              />
-              {formik.touched.last_name && formik.errors.last_name && (
-                <p className="text-red-600 text-xs">{formik.errors.last_name}</p>
-              )}
-            </div>
-
             {/* Email */}
-            <div className="sm:col-span-2">
+            <div className="col-span-full">
               <input
                 type="email"
                 name="email"
@@ -167,7 +121,7 @@ const ContactForm = () => {
             </div>
 
             {/* Phone */}
-            <div className="sm:col-span-2">
+            <div className="col-span-full">
               <PhoneInput
                 international
                 countryCallingCodeEditable={false}
@@ -186,7 +140,7 @@ const ContactForm = () => {
             </div>
 
             {/* Country */}
-            <div className="sm:col-span-2">
+            <div className="col-span-full">
               <select
                 className={`w-full py-[10px] bg-white text-sm border px-3 ${
                   formik.touched.country && formik.errors.country
@@ -237,7 +191,7 @@ const ContactForm = () => {
             <button
               disabled={loading}
               type="submit"
-              className="bg-primary text-white text-xl w-[120px] h-[50px] rounded"
+              className="bg-primary text-white text-base w-[120px] h-[40px] rounded"
             >
               {loading ? t("form.sending") : t("form.submit")}
             </button>
