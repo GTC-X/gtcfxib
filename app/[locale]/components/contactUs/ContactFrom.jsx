@@ -46,12 +46,19 @@ const ContactForm = () => {
       try {
         setLoading(true);
 
-        // Send to Zapier only
-        await axios.post("https://hooks.zapier.com/hooks/catch/16420445/udll9so/", JSON.stringify({
+        // 1) Send to Salesforce (via your server route) – no CORS issues
+        await axios.post("/api/web-to-case", {
           ...values,
-          locale: locale,
-          timestamp: new Date().toISOString(),
-        }));
+          locale,
+          retURL: `https://www.gtcfx.com/${locale}/thank-you`,
+        });
+
+        // // Send to Zapier only
+        // await axios.post("https://hooks.zapier.com/hooks/catch/16420445/udll9so/", JSON.stringify({
+        //   ...values,
+        //   locale: locale,
+        //   timestamp: new Date().toISOString(),
+        // }));
 
         toast.success(t2("submitted_success"));
         formik.resetForm();
@@ -89,11 +96,10 @@ const ContactForm = () => {
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
                 value={formik.values.first_name}
-                className={`block w-full bg-white border p-2 placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6 ${
-                  formik.touched.first_name && formik.errors.first_name
+                className={`block w-full bg-white border p-2 placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6 ${formik.touched.first_name && formik.errors.first_name
                     ? "border-red-600"
                     : "border-gray-200"
-                }`}
+                  }`}
               />
               {formik.touched.first_name && formik.errors.first_name && (
                 <p className="text-red-600 text-xs">{formik.errors.first_name}</p>
@@ -109,11 +115,10 @@ const ContactForm = () => {
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
                 value={formik.values.email}
-                className={`block w-full bg-white border p-2 placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6 ${
-                  formik.touched.email && formik.errors.email
+                className={`block w-full bg-white border p-2 placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6 ${formik.touched.email && formik.errors.email
                     ? "border-red-600"
                     : "border-gray-200"
-                }`}
+                  }`}
               />
               {formik.touched.email && formik.errors.email && (
                 <p className="text-red-600 text-xs">{formik.errors.email}</p>
@@ -128,11 +133,10 @@ const ContactForm = () => {
                 defaultCountry={countryCode}
                 value={formik.values.phone}
                 onChange={(phone) => formik.setFieldValue("phone", phone)}
-                className={`w-full px-4 py-2 border ${
-                  formik.touched.phone && formik.errors.phone
+                className={`w-full px-4 py-2 border ${formik.touched.phone && formik.errors.phone
                     ? "border-red-600"
                     : "border-gray-200"
-                } bg-white`}
+                  } bg-white`}
               />
               {formik.touched.phone && formik.errors.phone && (
                 <p className="text-red-600 text-xs">{formik.errors.phone}</p>
@@ -142,11 +146,10 @@ const ContactForm = () => {
             {/* Country */}
             <div className="col-span-full">
               <select
-                className={`w-full py-[10px] bg-white text-sm border px-3 ${
-                  formik.touched.country && formik.errors.country
+                className={`w-full py-[10px] bg-white text-sm border px-3 ${formik.touched.country && formik.errors.country
                     ? "border-red-600"
                     : "border-gray-200"
-                }`}
+                  }`}
                 name="country"
                 value={formik.values.country}
                 onChange={formik.handleChange}
@@ -174,11 +177,10 @@ const ContactForm = () => {
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
                 value={formik.values.message}
-                className={`block w-full bg-white border p-2 placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6 ${
-                  formik.touched.message && formik.errors.message
+                className={`block w-full bg-white border p-2 placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6 ${formik.touched.message && formik.errors.message
                     ? "border-red-600"
                     : "border-gray-200"
-                }`}
+                  }`}
               />
               {formik.touched.message && formik.errors.message && (
                 <p className="text-red-600 text-xs">{formik.errors.message}</p>
