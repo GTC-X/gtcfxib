@@ -34,13 +34,13 @@ export async function POST(req) {
                         <tr>
                             <td class="content">
                                 <h2 style="color: #ffffff; text-align: center; font-size: 16px; margin: 0px auto; padding: 10px; background: #192055; border-radius: 27px; max-width: 68%; margin-bottom: 39px;">
-                                    Your GTCFX OTP
+                                    Your GTCFX IQ OTP
                                 </h2>
                                 <h3 style="font-size: 16px; color: #192055;">
                                     Dear <em>Client</em>,
                                 </h3>
                                 
-                                <p>Thank you for choosing GTCFX.</p>
+                                <p>Thank you for choosing GTCFX IQ.</p>
 
                                 <p>Please use the following One-Time Password <strong style="font-size: 18px;font-weight: 800; color: #192055;">${otp}</strong> to complete your further process.</p>
                                 
@@ -48,7 +48,7 @@ export async function POST(req) {
                         
                                 
                                            
-                                <p style="line-height: 30px; padding-top: 20px;">Best Regards,<br><strong style="color: #192055; margin-top:5px;">GTCFX Team</strong></p>
+                                <p style="line-height: 30px; padding-top: 20px;">Best Regards,<br><strong style="color: #192055; margin-top:5px;">GTCFX IQ Team</strong></p>
                             </td>
                         </tr>
                         <tr>
@@ -74,7 +74,7 @@ export async function POST(req) {
                                     </a>
                                 </div>
                                 <p style="font-size: 9px; line-height: 13px; text-align: left;">
-                                    Company name: GTC FX / Website: www.gtcfx.com / Email: support@gtcfxiq.com / Tel.: +971 800 667788
+                                    Company name: GTC FX / Website: www.gtcfxiq.com / Email: support@gtcfxiq.com / Tel.: +971 800 667788
                                 </p>
                                 <p style="font-size: 9px; line-height: 13px; text-align: left;">
                                   Disclaimers: The information in this email is for general purposes only and does not constitute personal financial advice. Please assess the relevance of this information to your own financial goals and situation. Investing in contract for difference products carries significant risks and may not be suitable for all investors. Losses may exceed the initial deposit. You do not have ownership rights to the underlying assets of the contract. We advise seeking professional guidance to fully understand the risks before trading. Please review our user terms, risk warnings, privacy policy, and other relevant documents before making financial decisions.
