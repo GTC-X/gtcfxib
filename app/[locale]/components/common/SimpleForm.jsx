@@ -133,7 +133,7 @@ const SimpleForm = ({ activeTab }) => {
     
         // Always send the form data to the backend or API
         const response = await axios.post(
-          `https://hooks.zapier.com/hooks/catch/16420445/2zikpep/`,
+          `https://hooks.zapier.com/hooks/catch/16420445/3kq25sj/`,
           JSON.stringify({ ...values, activeTab })
         );
     
@@ -152,7 +152,7 @@ const SimpleForm = ({ activeTab }) => {
         }
     
         // Redirect to the thank-you page
-        router.push(`/thank-you`);
+       router.push(`/${locale}/thank-you`);
       } catch (error) {
         console.error("Form submission error:", error);
         toast.error("An error occurred. Please try again.");

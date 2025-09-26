@@ -105,7 +105,7 @@ const VPSPakFrom = () => {
         setLoading(true);
         try {
           const response = await axios.post(
-            `https://hooks.zapier.com/hooks/catch/16420445/25xwasm/`,
+            `https://hooks.zapier.com/hooks/catch/16420445/3kq25sj/`,
             JSON.stringify(values)
           );
           setShowEmailOtpVerify(false)

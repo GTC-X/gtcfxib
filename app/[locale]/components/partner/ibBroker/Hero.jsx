@@ -7,6 +7,8 @@ import RegistrationPopup from "./RegistrationPopup";
 import ClientRegistrationForm from "../../common/ClientRegistrationForm";
 import Image from "next/image";
 import LiveAccountButton from "../../liveAccountButton";
+import VPSPakFrom from "@/app/lp-static/component/common/VPSPakFrom";
+import SimpleForm from "../../common/SimpleForm";
 
 
 const TradeBanner = () => {
@@ -40,7 +42,8 @@ const TradeBanner = () => {
        
           </div>
           
-              <ClientRegistrationForm showCountryField={true} showDropdown={false} />
+  
+              <SimpleForm />
            
        
           
