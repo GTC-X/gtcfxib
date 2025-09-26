@@ -152,7 +152,7 @@ const SimpleForm = ({ activeTab }) => {
         }
     
         // Redirect to the thank-you page
-       router.push(`/${locale}/thank-you`);
+        router.push(`/thank-you`);
       } catch (error) {
         console.error("Form submission error:", error);
         toast.error("An error occurred. Please try again.");
