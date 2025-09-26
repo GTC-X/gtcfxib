@@ -69,7 +69,7 @@ const useFormHook = () => {
             formik.resetForm();
             setLoading(false)
             if (commonForm) {
-                router.push(`/thank-you?${pathName?.slice(11)}`);
+                router.push(`/${locale}/thank-you?${pathName?.slice(11)}`);
             }
         } else {
             toast.error('Error inserting data: ' + result.error);
