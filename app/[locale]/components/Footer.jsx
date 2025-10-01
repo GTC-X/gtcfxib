@@ -12,6 +12,7 @@ import { AiFillClockCircle } from "react-icons/ai";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next-intl/client";
 import TradeInvest from "./about/TradeInvest";
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 const Footer = () => {
   const t = useTranslations("footerLink");
@@ -170,16 +171,7 @@ const Footer = () => {
           label: t("contact.menu2"),
           icon: MdEmail,
         },
-        {
-          text: "393526",
-          label: t("contact.menu3"),
-          icon: FaEnvelopeOpenText,
-        },
-        {
-          text: "24/7",
-          label: t("contact.menu4"),
-          icon: AiFillClockCircle,
-        },
+       
       ],
     },
   ];
@@ -238,13 +230,14 @@ const Footer = () => {
     {contact[0].links.map((link, index) => (
       <li
         key={index}
-        className="text-[10px] font-normal leading-7 text-white hover:text-secondary cursor-pointer flex justify-start items-center gap-2"
+        className="font-normal leading-7 text-white hover:text-secondary cursor-pointer flex flex-row justify-start items-start gap-2 pt-2"
       >
         <link.icon size={18} className="text-secondary" />
-        <b>{link.label}</b>
+        <b className="text-[10px] md:text-base">{link.label}</b>
         <p dir="ltr" className="text-[10px] md:text-base">{link.text}</p>
       </li>
     ))}
+    <li className="text-white  pt-2">{t("contact.menu3")}</li>
   </ul>
 </div>
 
@@ -252,7 +245,6 @@ const Footer = () => {
         <div className="container lg:flex justify-start items-center mt-8 pt-8 border-t border-y-cyan-50 border-opacity-40 px-2 ">
           <div className="lg:basis-3/12 lg:flex flex-wrap items-center justify-center md:pr-10 pb-5">
           
-            <SocialIcon />
             <div className="flex flex-row py-5 justify-center">
               <Image
                 src="/footer/iso9001_icon.png"
@@ -292,28 +284,17 @@ const Footer = () => {
               </span>
               {t("footerNotice.gtc_global_pty_para")}
             </p>
-            <h5 className="text-sm font-medium text-secondary">{t("footerNotice.title")} </h5>
-            <p>{t("footerNotice.gtc_global_para")}</p>
+        
 
-            <p>
-              <span className="text-secondary">
-                {t("footerNotice.yellow2")}
-              </span>
-              {t("footerNotice.secPara")}
-            </p>
-            <p>
-              <span className="text-secondary">
-                {t("footerNotice.gtc_group_heading2")}
-              </span>
-              {t("footerNotice.gtc_group_para2")}
-            </p>
-           
+         
           
            
             <p>
             
               {t("footerNotice.eightPara")}{" "}
             </p>
+
+            <p><span className="text-secondary" >Global Trade company for online commerce</span> {t("contact.menu3")} </p>
           <div className="flex flex-row flex-wrap justify-center md:justify-start gap-4 items-center">
                 <Link target="_blank" href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/PRIVACY+POLICY+GTCFX.pdf" className="text-center text-white py-2 w-36 border border-gray-100 border-opacity-10 hover:bg-white hover:text-primary">{t("policy.menu1")}</Link>
                 <Link target="_blank" href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/Risk+Warning.pdf" className="text-center text-white py-2 w-36 border border-gray-100 border-opacity-10 hover:bg-white hover:text-primary">{t("policy.menu7")}</Link>
