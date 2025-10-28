@@ -9,6 +9,7 @@ import { FacebookPixelEvents } from "./components/utilities/pixelEvent";
 import Footer from "./components/Footer";
 import { ToastContainer } from "react-toastify";
 import { usePathname } from "next/navigation";
+import FloatingChatButtons from "./components/FloatingChatButtons";
 
 const LayoutWrapper = ({ children, currentLanguage, locale, messages }) => {
   const { translation, loading } = useLanguageHook({ locale, messages });
@@ -43,6 +44,7 @@ const LayoutWrapper = ({ children, currentLanguage, locale, messages }) => {
         <FacebookPixelEvents />
  
         {!isStaticPath && <Footer />}
+         <FloatingChatButtons />
       </NextIntlClientProvider>
     </Suspense>
   );

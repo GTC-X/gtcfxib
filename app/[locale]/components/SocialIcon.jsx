@@ -14,14 +14,10 @@ import {
 
 
   const socialMediaIcons = [
-  { icon: BiLogoFacebookCircle, link: "https://www.facebook.com/GTCFXGlobalTradeCapital" },
-  { icon: FaXTwitter, link: "https://x.com/GTC_fx" },
-  { icon: BiLogoYoutube, link: "https://www.youtube.com/channel/UCnKWakjm1b9Bm63xgwNFXHA" },
-  { icon: BiLogoLinkedinSquare, link: "https://linkedin.com/company/gtcfx-official" },
-  { icon: BiLogoInstagramAlt, link: "https://www.instagram.com/gtcfxofficial/" },
-  { icon: BiLogoWhatsapp, link: "https://api.whatsapp.com/send?phone=971800667788" },
-  { icon: BiLogoTelegram, link: "https://t.me/gtc_vip_signal" },
-  { icon: BiLogoTiktok, link: "https://www.tiktok.com/@gtcgroup_official" },
+  { icon: BiLogoFacebookCircle, link: "https://www.facebook.com/share/1CiQoaVswP/?mibextid=wwXIfr" },
+  { icon: BiLogoInstagramAlt, link: "https://www.instagram.com/gtcfxiq/?igsh=ZWJhN2h5cmdlaXZ3#" },
+  { icon: BiLogoWhatsapp, link: "https://api.whatsapp.com/send?phone=9647502207788" },
+  { icon: BiLogoTiktok, link: "https://www.tiktok.com/@gtcfxiq?_t=ZS-90vGfOeibCi&_r=1" },
 ];
 
 const CopyRight = () => {

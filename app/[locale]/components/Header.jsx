@@ -520,10 +520,10 @@ const Header = ({currentLanguage}) => {
           <div className="flex justify-between items-center ">
             <Image
               src="/logoiq.webp"
-              width={200}
-              height={56}
+              width={180}
+              height={50}
               alt="GTCFX"
-              className="lg:w-[200px] lg:h-[56px] md:w-[120px] md:h-[53px] w-[130px] h-[47px] cursor-pointer"
+              className="lg:w-[180px] lg:h-[50px] md:w-[120px] md:h-[34px] w-[100px] h-[28px] cursor-pointer"
               onClick={() => {
                 router.push("/", { locale: locale });
               }}

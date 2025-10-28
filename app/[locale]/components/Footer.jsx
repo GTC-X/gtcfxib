@@ -237,12 +237,13 @@ const Footer = () => {
         <p dir="ltr" className="text-[10px] md:text-base">{link.text}</p>
       </li>
     ))}
-    <li className="text-white  pt-2">{t("contact.menu3")}</li>
+    <li className="text-white  pt-2">Address: {t("contact.menu3")}</li>
   </ul>
 </div>
 
         </div>
         <div className="container lg:flex justify-start items-center mt-8 pt-8 border-t border-y-cyan-50 border-opacity-40 px-2 ">
+         
           <div className="lg:basis-3/12 lg:flex flex-wrap items-center justify-center md:pr-10 pb-5">
           
             <div className="flex flex-row py-5 justify-center">
@@ -264,6 +265,7 @@ const Footer = () => {
             <div className="relative w-full h-[200px]">
                 <Image src="/footer-map.png" fill alt="GTC Map" className="object-contain" />
             </div>
+             <SocialIcon />
           </div>
           <div className="lg:basis-9/12 text-xs text-white text-opacity-70 space-y-3 leading-5">
             <p>
