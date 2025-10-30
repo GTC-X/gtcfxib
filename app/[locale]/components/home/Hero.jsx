@@ -31,12 +31,12 @@ const Hero = () => {
     <section
   className="relative w-full h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] 2xl:h-[850px] flex items-center justify-center text-center overflow-hidden"
   style={{
-    backgroundImage: "url('/bannner.webp')", // path relative to /public
+    backgroundImage: "url('/banner11.webp')", // path relative to /public
     backgroundSize: 'cover',
-    backgroundPosition: 'center bottom',
+    backgroundPosition: 'center top',
     backgroundRepeat: 'no-repeat',
   }}
->
+> 
 
 
       {/* Background Video */}
