@@ -8,7 +8,7 @@ export default function FloatingChatButtons() {
       {/* WhatsApp Floating Chat */}
       <FloatingWhatsApp
         phoneNumber="9647502207788"
-        accountName="GTC FX Iraq Support"
+        accountName="GTCFXIQ support"
         avatar="/gtc-logo.png"              // optional logo in /public
         chatMessage="Hi 👋 I'm interested in GTC FX Iraq. Can you help me?"
         statusMessage="Typically replies within 5 minutes"
@@ -21,7 +21,7 @@ export default function FloatingChatButtons() {
 
       {/* Telegram Floating Icon */}
       <a
-        href="https://t.me/gtcfxiraq"
+        href="https://t.me/gtcfxiq"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on Telegram"
