@@ -1,3 +1,4 @@
+import { NextResponse } from "next/server";
 import createMiddleware from "next-intl/middleware";
 
 export const AppLanguage = {
@@ -5,19 +6,41 @@ export const AppLanguage = {
   Arabic: "ar-AE",
 };
 
-export default createMiddleware({
-   // A list of all locales that are supported
-   locales: ["en", "ar-AE"],
-
-  // If this locale is matched, pathnames work without a prefix (e.g. `/about`)
+const intlMiddleware = createMiddleware({
+  locales: ["en", "ar-AE"],
   defaultLocale: "ar-AE",
   localeDetection: false,
 });
 
+export default function middleware(request) {
+  const pathname = request.nextUrl.pathname;
+
+  if (
+    pathname.startsWith("/api") ||
+    pathname.startsWith("/_next") ||
+    pathname.startsWith("/_vercel") ||
+    pathname.startsWith("/lp-static") ||
+    pathname.includes(".")
+  ) {
+    return NextResponse.next();
+  }
+
+  const country =
+    request.geo?.country || request.headers.get("x-vercel-ip-country");
+
+  // ✅ IMPORTANT: avoid loop for both "/not-available" and "/ar-AE/not-available"
+  const isNotAvailablePage =
+    pathname === "/not-available" || pathname.endsWith("/not-available");
+
+  if (country !== "IQ" && !isNotAvailablePage) {
+    const url = request.nextUrl.clone();
+    url.pathname = "/not-available";
+    return NextResponse.redirect(url);
+  }
+
+  return intlMiddleware(request);
+}
+
 export const config = {
-  // Skip all paths that should not be internationalized. This example skips
-  // API, _next, static pages, and any pathnames with a dot (e.g. favicon.ico)
-  matcher: [
-    "/((?!api|_next|_vercel|lp-static|.*\\..*).*)"  // Exclude /static path
-  ],
+  matcher: ["/((?!api|_next|_vercel|lp-static|.*\\..*).*)"],
 };

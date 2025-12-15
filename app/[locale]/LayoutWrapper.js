@@ -4,7 +4,7 @@ import { NextIntlClientProvider } from "next-intl";
 import Header from "./components/Header";
 import { useLanguageHook } from "./hook";
 import FallbackLoader from "./components/LoadingSpinner";
-import { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect } from "react";
 import { FacebookPixelEvents } from "./components/utilities/pixelEvent";
 import Footer from "./components/Footer";
 import { ToastContainer } from "react-toastify";
@@ -13,38 +13,46 @@ import FloatingChatButtons from "./components/FloatingChatButtons";
 
 const LayoutWrapper = ({ children, currentLanguage, locale, messages }) => {
   const { translation, loading } = useLanguageHook({ locale, messages });
-  const pathName = usePathname(); // Access the router
+  const pathName = usePathname();
 
-  // Ensure the router and path-related logic runs only after mounting
   const isStaticPath = pathName?.includes("static");
-  const ignoreMissingTranslations = process.env.NEXT_PUBLIC_IGNORE_MISSING_TRANSLATION === 'true';
+  const isNotAvailablePath =
+    pathName === "/not-available" || pathName?.endsWith("/not-available");
+
+  const ignoreMissingTranslations =
+    process.env.NEXT_PUBLIC_IGNORE_MISSING_TRANSLATION === "true";
 
   useEffect(() => {
     const referrerUrl = document.referrer;
-
-    if (referrerUrl) {
-      localStorage.setItem('user_referrer', referrerUrl);
-    }
+    if (referrerUrl) localStorage.setItem("user_referrer", referrerUrl);
   }, []);
 
   return (
     <Suspense fallback={<FallbackLoader />}>
-      <NextIntlClientProvider locale={locale} messages={translation}
+      <NextIntlClientProvider
+        locale={locale}
+        messages={translation}
         onError={(error) => {
-          if (ignoreMissingTranslations && error.code === 'MISSING_MESSAGE') {
-            return; // Ignore the error
-          }
+          if (ignoreMissingTranslations && error.code === "MISSING_MESSAGE") return;
           throw error;
         }}
       >
         {loading && <FallbackLoader />}
-        {!isStaticPath && <Header currentLanguage={currentLanguage} />}
+
+        {/* ✅ Hide Header/Footer on static + not-available */}
+        {!isStaticPath && !isNotAvailablePath && (
+          <Header currentLanguage={currentLanguage} />
+        )}
+
         {children}
+
         <ToastContainer autoClose={3000} />
         <FacebookPixelEvents />
- 
-        {!isStaticPath && <Footer />}
-         <FloatingChatButtons />
+
+        {!isStaticPath && !isNotAvailablePath && <Footer />}
+
+        {/* Optional: if you also want to hide chat buttons on blocked page */}
+        {!isNotAvailablePath && <FloatingChatButtons />}
       </NextIntlClientProvider>
     </Suspense>
   );
