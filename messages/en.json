@@ -359,6 +359,22 @@
       "fact_no4": " Billion",
       "fact_desc4": "Monthly Trades"
     },
+     "primeHome": {
+      "heading": "Smart Trading Solutions for Every Investor",
+      "desc": "Choose the trading approach that suits your goals. Whether you prefer to follow experienced traders in real time or invest with professional money managers, our solutions are designed to make trading simpler, smarter, and more transparent.",
+      "CopyTrading": {
+        "heading": "Copy Trading Made Simple",
+        "desc": "Follow top-performing traders and automatically copy their trades in real time. Choose who to follow, set your investment amount, and stay in control an easy way to trade without constant monitoring.",
+        "button": "Explore Copy Trading",
+        "button1": "Review More Copy Trading"
+      },
+      "PAMMTrading": {
+        "heading": "Invest Smarter with PAMM Trading",
+        "desc": "Invest with professional money managers who trade using structured strategies. Your funds stay in your account, performance is transparent, and the process is fully hands-free ideal for long-term investing.",
+        "button": "Explore PAMM Trading",
+        "button1": "Review More PAMM"
+      }
+    },
     "whyGTC": {
       "title": "Invest with the World's Premier Online Trading Platform.",
       "desc": "Trade 27,000 financial products with the most stable platform, our MetaTrader Platform offers favorable spreads.",

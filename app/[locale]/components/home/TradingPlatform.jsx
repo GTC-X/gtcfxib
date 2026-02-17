@@ -25,7 +25,8 @@ export default function TradingPlatform() {
   ];
 
   return (
-    <section className="py-10 lg:py-[70px]  md:bg-[url('/line-bg.jpg')] bg-cover bg-center">
+  
+       <section className="py-10 lg:py-[70px] bg-[#ECF3FD] md:bg-[url('/line-bg.jpg')] bg-cover bg-center bg-blend-multiply text-center">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-5 md:gap-10">
           {/* Left Section - Asset Markets */}
