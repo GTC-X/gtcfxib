@@ -88,7 +88,7 @@ export default async function LocaleLayout({ children, params }) {
         />
         <Script
           async={true}
-          src="https://www.googletagmanager.com/gtag/js?id=AW-10835048699"
+          src="https://www.googletagmanager.com/gtag/js?id=G-TC1GNXWN40"
         ></Script>
         <Script
           dangerouslySetInnerHTML={{
@@ -96,7 +96,7 @@ export default async function LocaleLayout({ children, params }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);} 
             gtag('js', new Date());
-            gtag('config', 'AW-10835048699');
+            gtag('config', 'G-TC1GNXWN40');
             `,
           }}
         />
@@ -151,7 +151,7 @@ export default async function LocaleLayout({ children, params }) {
         />
         <noscript
           dangerouslySetInnerHTML={{
-            __html: ` <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSWH9QF"
+            __html: ` <iframe src="https://www.googletagmanager.com/ns.html?id=G-TC1GNXWN40"
         height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
           }}
         />
