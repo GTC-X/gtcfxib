@@ -29,13 +29,13 @@ const LpHeader = () => {
             <div className={`flex items-center gap-2 rtl:md:mr-4 ltr:md:ml-4`}>
               
               <div className="flex flex-col lg:flex-row">
-                <Link href='https://mygtcportal.com' target="_blank" className="hidden text-primary hover:bg-secondary hover:text-white text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center bg-white">
+                <Link href='https://web.mygtc.app/login' target="_blank" className="hidden text-primary hover:bg-secondary hover:text-white text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center bg-white">
                   <MdOutlineLogin size={20} />
                   Member Login
                 </Link>
               </div>
               <div className="flex flex-col lg:flex-row">
-                <Link href='https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww' target="_blank" className="hidden text-white uppercase bg-[#29a643] hover:bg-primary hover:text-white text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">
+                <Link href='https://web.mygtc.app/login/register?ref=gtciraq' target="_blank" className="hidden text-white uppercase bg-[#29a643] hover:bg-primary hover:text-white text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">
                   Open An Account
                 </Link>
               </div>

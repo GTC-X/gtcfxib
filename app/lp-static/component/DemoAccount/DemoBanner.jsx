@@ -17,7 +17,7 @@ const DemoBanner = () => {
             Until Ready to Conquer The Markets
            </p> 
             <div>
-                <Link href='https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww' target="_blank" className="bg-gradient-to-b from-[#0a0a0a] from-10% to-secondary to-90% text-white text-sm 3xl:text-xl px-8 py-3 text-center rounded-md md:w-auto w-[300px] md:m-0 mx-auto transition-colors duration-900 hover:bg-gradient-to-b hover:from-secondary hover:to-[#000] duration-500">Open Live Account</Link>
+                <Link href='https://web.mygtc.app/login/register?ref=gtciraq' target="_blank" className="bg-gradient-to-b from-[#0a0a0a] from-10% to-secondary to-90% text-white text-sm 3xl:text-xl px-8 py-3 text-center rounded-md md:w-auto w-[300px] md:m-0 mx-auto transition-colors duration-900 hover:bg-gradient-to-b hover:from-secondary hover:to-[#000] duration-500">Open Live Account</Link>
             </div>
           </div>
           {/* <div className="flex justify-end">

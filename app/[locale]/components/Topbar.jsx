@@ -27,23 +27,23 @@ const TopBar = ({ currentLanguage, isAr, href }) => {
     // Define base links for different regions
     const baseLink = (() => {
         if (isIranianOrFarsi) {
-            return 'https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww'; // Iranian or Farsi
+            return 'https://web.mygtc.app/login/register?ref=gtciraq'; // Iranian or Farsi
         } else if (isEuropean) {
-            return 'https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww'; // European
+            return 'https://web.mygtc.app/login/register?ref=gtciraq'; // European
         } else if (isChilean) {
-            return 'https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww'; // Chilean token
+            return 'https://web.mygtc.app/login/register?ref=gtciraq'; // Chilean token
         } else if (countryCode === 'JP') {
-            return 'https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww'; // Japanese
+            return 'https://web.mygtc.app/login/register?ref=gtciraq'; // Japanese
         } else if (countryCode === 'PK') {
-            return 'https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww'; // Pakistani
+            return 'https://web.mygtc.app/login/register?ref=gtciraq'; // Pakistani
         } else if (countryCode === 'IN') {
-            return 'https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww'; // Indian
+            return 'https://web.mygtc.app/login/register?ref=gtciraq'; // Indian
         } else {
-            return 'https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww'; // Default
+            return 'https://web.mygtc.app/login/register?ref=gtciraq'; // Default
         }
     })();
 
-    const baseLink2 = isEuropean ? 'https://mygtcportal.com' : isJapanese ? 'https://mygtcportal.com' : 'https://mygtcportal.com';
+    const baseLink2 = isEuropean ? 'https://web.mygtc.app/login' : isJapanese ? 'https://web.mygtc.app/login' : 'https://web.mygtc.app/login';
     
     const newClientPortalLink = `${baseLink2}/`;
     const accountLink = `${baseLink}`;
@@ -96,7 +96,7 @@ const TopBar = ({ currentLanguage, isAr, href }) => {
                         </Link>
                     </div>
                     <div className="flex flex-col lg:flex-row">
-                        <Link href='https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww' target="_blank" className="hidden text-white uppercase bg-[#29a643] hover:bg-white hover:text-primary text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">
+                        <Link href='https://web.mygtc.app/login/register?ref=gtciraq' target="_blank" className="hidden text-white uppercase bg-[#29a643] hover:bg-white hover:text-primary text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">
                             {t("tobbar.account")}
                         </Link>
                     </div>

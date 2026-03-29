@@ -16,7 +16,7 @@ const nextConfig = {
     return [
       {
         source: '/live-account',
-        destination: 'https://mygtcportal.com',
+        destination: 'https://web.mygtc.app/login',
         permanent: true,
       },
       {
@@ -27,7 +27,7 @@ const nextConfig = {
             value: 'www.gtcfx.com',
           },
         ],
-        destination: 'https://mygtcportal.com',
+        destination: 'https://web.mygtc.app/login',
         permanent: true,
       },
     ];

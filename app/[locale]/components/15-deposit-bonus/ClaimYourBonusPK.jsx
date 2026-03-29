@@ -31,7 +31,7 @@ const ClaimYourBonusPK = () => {
               </ul>
               <div className="text-left pt-10">
                 <Link
-                  href='https://mygtcportal.com/getview?view=register'
+                  href='https://web.mygtc.app/login/getview?view=register'
                   target="_blank"
                   className={`bg-gradient-to-b from-[#202d7bdb] via-[#050331] to-[#05033162] rounded-lg shadow-lg overflow-hidden text-white 3xl:text-xl px-8 py-3 text-center md:w-auto w-[300px] md:m-0 mx-auto transition-colors duration-900 hover:bg-gradient-to-b hover:from-secondary hover:to-[#fff] duration-500 hover:text-primary`}
                 >

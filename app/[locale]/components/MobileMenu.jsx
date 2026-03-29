@@ -61,7 +61,7 @@ export default function MobileMenu(props) {
           <div className="flex flex-row justify-center gap-4 items-center  p-3 border-b border-gray-300">
             <div className="">
               <Link
-                href="https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww"
+                href="https://web.mygtc.app/login/register?ref=gtciraq"
                 target="_blank"
                 className="uppercase border border-[#29a643] hover:bg-primary hover:text-white  text-[11px] px-3 py-[6px] md:flex gap-2 items-center"
               >
@@ -120,7 +120,7 @@ export default function MobileMenu(props) {
             ))}
             <Link
               target="_blank"
-              href="https://mygtcportal.com"
+              href="https://web.mygtc.app/login"
               className="primaryButton rounded-none text-sm font-normal bg-primary hover:bg-secondary hover:text-primary flex gap-2 items-center"
             >
               <MdOutlineLogin size={20} /> {t("new_client_portal")} 

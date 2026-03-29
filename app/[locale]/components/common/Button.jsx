@@ -21,13 +21,13 @@ const Button = () => {
   const isIranianOrFarsi = countryCode === 'IR' || locale === 'fa-IR'; // Check for Iran or Farsi language
 
   // Define the registration link based on the locale and country code
-  const registrationLink = isIranianOrFarsi ? 'https://mygtcportal.com/getview?view=register&token=es8owwwwAowwwwww' :
+  const registrationLink = isIranianOrFarsi ? 'https://web.mygtc.app/login/getview?view=register&token=es8owwwwAowwwwww' :
     isEuropean ? 'https://my.gtcfx.com/getview?view=register&token=exhowwwwe2owwwww' :
-      isChilean ? 'https://mygtcportal.com/getview?view=register&token=eKwpowwwAowwwwww' : // Only Chile uses this token
-      isJapanese ? 'https://mygtcportal.com/getview?view=register&token=e2v3owww2wowwwww' :
-        isPakistani ? 'https://mygtcportal.com/getview?view=register&token=e9tcowwwjowwwwww' :
-          isIndian ? 'https://mygtcportal.com/getview?view=register&token=e9t3owwwrowwwwww' :
-            'https://mygtcportal.com/getview?view=register&token=ezq6owwwrowwwwww'; // Default link
+      isChilean ? 'https://web.mygtc.app/login/getview?view=register&token=eKwpowwwAowwwwww' : // Only Chile uses this token
+      isJapanese ? 'https://web.mygtc.app/login/getview?view=register&token=e2v3owww2wowwwww' :
+        isPakistani ? 'https://web.mygtc.app/login/getview?view=register&token=e9tcowwwjowwwwww' :
+          isIndian ? 'https://web.mygtc.app/login/getview?view=register&token=e9t3owwwrowwwwww' :
+            'https://web.mygtc.app/login/register?ref=gtciraq'; // Default link
 
 
   return (

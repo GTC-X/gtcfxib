@@ -505,7 +505,7 @@ const Markets = () => {
 
 
     const handleClick = () => {
-        window.open('https://mygtcportal.com/getview?view=register&token=exhowwwweowwwwww', '_blank');
+        window.open('https://web.mygtc.app/login/getview?view=register&token=exhowwwweowwwwww', '_blank');
     };
 
 
