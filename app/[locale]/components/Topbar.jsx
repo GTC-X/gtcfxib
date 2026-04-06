@@ -43,7 +43,7 @@ const TopBar = ({ currentLanguage, isAr, href }) => {
         }
     })();
 
-    const baseLink2 = isEuropean ? 'https://web.mygtc.app/login' : isJapanese ? 'https://web.mygtc.app/login' : 'https://web.mygtc.app/login';
+    const baseLink2 = isEuropean ? 'https://web.mygtc.app/user?redirect=%252Fdashboard' : isJapanese ? 'https://web.mygtc.app/user?redirect=%252Fdashboard' : 'https://web.mygtc.app/user?redirect=%252Fdashboard';
     
     const newClientPortalLink = `${baseLink2}/`;
     const accountLink = `${baseLink}`;
